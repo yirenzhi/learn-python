@@ -1,0 +1,2247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="dns-prefetch" href="http://i.tq121.com.cn">
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>【上海天气】上海40天天气预报,上海更长预报,上海天气日历,上海日历,15天天气预报,天气预报一周</title>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta name="keywords" content="上海天气预报,上海今日天气,上海周末天气,上海一周天气预报,上海15日天气预报,上海更长预报,上海天气日历,上海日历,上海40日天气预报" />
+<meta name="description" content="上海天气预报，及时准确发布中央气象台天气信息，便捷查询上海今日天气，上海周末天气，上海一周天气预报，上海15日天气预报，,上海40日天气预报，上海天气预报还提供北京各区县的生活指数、健康指数、交通指数、旅游指数，及时发布上海气象预警信号、各类气象资讯。" />
+<meta name="msapplication-task" content="name=天气资讯;action-uri=http://www.weather.com.cn/news/index.shtml;icon-uri=http://www.weather.com.cn/favicon.ico" />
+<meta name="msapplication-task" content="name=生活天气;action-uri=http://www.weather.com.cn/life/index.shtml;icon-uri=http://www.weather.com.cn/favicon.ico" />
+<meta name="msapplication-task" content="name=气象科普;action-uri=http://www.weather.com.cn/science/index.shtml;icon-uri=http://www.weather.com.cn/favicon.ico" />
+<meta name="msapplication-task" content="name=灾害预警;action-uri=http://www.weather.com.cn/alarm/index.shtml;icon-uri=http://www.weather.com.cn/favicon.ico" />
+<meta name="msapplication-task" content="name=旅游天气;action-uri=http://www.weather.com.cn/trip/index.shtml;icon-uri=http://www.weather.com.cn/favicon.ico" />
+</head>
+<body>
+<input id="colorid" type="hidden" value="预报">
+<style>
+body{background-color:#fff;background-attachment:fixed;background-position:center top;background-repeat:no-repeat;padding:0;margin:0;border:0;font:14px "Microsoft Yahei",Tahoma,SimSun}*{padding:0;margin:0;}input{outline:none;}input::-ms-clear {display: none;width : 0;height: 0;}img{border:0}ul{list-style:none}a{text-decoration:none;color:#252525}a:hover{color:#ee842f;text-decoration:none}em{font-style:normal}.fl{float:left;display:inline}.fr{display:inline;float:right}.clear{clear:both}.line{border-bottom:1px solid #d7d7d7;height:0;overflow:hidden;width:1000px;clear:both;float:left}.bottom-box,.footer,.header-box,.menu-box,.sheng-show,.top-box{width:100%;min-width:1000px;clear:both}.bottom,.dl-box,.header,.main,.menu,.nav,.top{width:1000px;margin:0 auto}.top-box{line-height:25px;height:25px;border-bottom:2px solid #dbe7f3;background:#f5fafe;font-size:12px}.top a,.top span{color:#252525;margin-right:20px}.top a.en{margin-right:0}.header{height:45px}.bottom-top dl dd a:hover,.city a:hover,.menu a:hover,.top a:hover,.warning a:hover{color:#ee842f}.header-box{background:#f5fafe;z-index:1005;padding-top:20px;position:relative}.menu{display:none}.menu a{font-size:15px}.menu a.color{color:#ee842f}.menu-box .sheng{display:block}.search-box{margin:0 50px;width:450px;position:relative;margin-right:0}.search{width:457px;position:relative}.search input#txtZip{font-family: 微软雅黑;margin:0;color:#aaa;text-indent:0;width:330px;padding:0 30px 0 10px;font-size:15px;height:35px;line-height:35px;background:url(http://i.tq121.com.cn/i/weather2015/city/jt-b.png) no-repeat 350px center #fff;border:1px solid #6eafd7;height:35px;border-radius:2px}.search input#txtZip:hover{border:1px solid #f68227;}.search input#btnZip{  font-family: 微软雅黑;text-indent:0;width:80px;height:37px;background:#f68227;color:#fff;margin-left:3px;cursor:pointer;font-size:16px}.search input:hover,.search.hover{border:1px solid #f68227;}.city-box{z-index:13;position:absolute;left:0;top:43px;border:1px solid #abaeaf;width:370px;display:none;background:#fff;box-shadow:4px 1px 9px -3px #888;height:auto}#wrapper{padding-top:10px}.weatherwapper{padding-top:10px}.weatherMain{margin-top:10px}.box{width:1000px;margin:0 auto;}.city-tt{clear:both;position:relative;overflow:hidden;background:#f6fcff;background: #f6fcff url(http://i.tq121.com.cn/i/weather2015/city/bj-dian.png) repeat-x left bottom;}.city-tt a{width:95px;overflow:hidden;display:block;float:left;border-right:1px solid #d4dde5;font-size:15px;text-align:center;background:#f6fcff;color:#252525;line-height:30px;border-bottom: 1px solid #d4dde5;}.weaper{margin-top:10px}.city-tt a:hover{color:#ee842f}.city-tt b{position:absolute;top:10px;display:block;cursor:pointer;right:10px;width:12px;height:12px;background:url(http://i.tq121.com.cn/i/weather2015/city/iconalls.png) no-repeat -64px -646px}.city-tt a.cur{background:#fff;border-bottom:none;padding-bottom:0;color:#ff6400;  border-bottom: 1px solid #fff;}.city-tt span{width:95px;overflow:hidden;display:block;float:left;border-right:1px solid #d4dde5;font-size:15px;text-align:center;background:#f6fcff;color:#252525;line-height:30px}.city-tt span.cur{background:#fff;border-bottom:none;padding-bottom:0;color:#ff6400}.w_city{overflow:hidden;clear:both;padding:10px 0;display:none}.w_city a{width:59px;height:20px;line-height:20px;padding:0;float:left;text-align:left;font-size:14px;margin-bottom:7px;color:#252525}.gn a{padding-right:30px;width:auto;float:left;text-align:left;font-size:14px;margin-bottom:7px;color:#252525}.city_guonei dl dd.diq a{padding:0;width:62px;float:left;text-align:left;margin-bottom:7px}.w_weather{float:right;width:auto;line-height:43px;position:relative;margin-top:5px;cursor: pointer;}.w_weather span{color:#7b7b7b;display:block;float:left;font-size:17px;line-height:30px;height:30px;width:68px;margin-right:15px;overflow:hidden; text-align:right; position:relative;}.w_weather span em{font-size:17px; display:block; white-space:nowrap; position:relative; left:0; top:0px;}.w_weather span em:hover{color:#ee842f}.w_weather em.s{line-height:30px;margin:0 10px;color:#0e70a1;font-size:16px}.w_weather a img{margin-top:14px}.w_weather a.add{background:url(http://i.tq121.com.cn/i/weather2015/city/iconalls.png) no-repeat -11px -593px;color:#0e70a1;font-size:25px;height:32px;margin-top:8px;padding:0px;text-indent:-9999px;width:20px}.w_weather a.dz_right{background-position:-61px -593px}.w_weather a.dz_down{background-position:-35px -593px}.w_weather .more{position:absolute;right:0;top:20px;width:278px;display:none}.nav{margin-top:20px;height:33px;padding-bottom:10px;color:#252525}.nav a{padding:0 52px;font-size:20px;color:#252525}.nav a.sheng{background:url(http://i.tq121.com.cn/i/weather2015/city/iconalls.png) no-repeat 94px -640px;color:#ee842f}.sheng-show{background:#ebebeb;display:none;position:absolute;top:118px;left:0}.dl-box dl{padding:10px 0}.dl-box dl dt{background:#076ea9;float:left;font-size:16px;height:40px;line-height:20px;margin-right:4px;padding:13px 10px;text-align:center;width:46px;border-radius:50%}.dl-box dl dt a{color:#fff}.dl-box dl dd{float:left;font-size:16px;height:56px;line-height:28px;padding:5px 0}.dl-box dl dd a{color:#076ea8;padding:0 16px}.menu-box{background:#e6f4ff;height:40px;line-height:40px;margin-top:1px;border-bottom:3px solid #c3daec;margin-bottom:10px}.menu{text-align:center;font-size:15px}.menu a{margin:0 37px;display:inline-block;color:#252525}.city_guonei dl{width:360px;height:auto;float:left;border-bottom:1px dotted #ccc;margin:0 auto;margin-left:4px;margin-bottom:8px}.city_guonei dl dt{float:left;text-align:center;font-size:14px;color:#252525;width:60px}.city_guonei dl dd{width:299px;float:right}.city_guonei dl dd a{font-size:12px;color:#6f6f6f;word-wrap:break-word}.city_guonei dl dd a:hover{color:#ee842f}.w_logo a{background:url(http://i.tq121.com.cn/i/weather2015/city/iconalls.png) no-repeat 0 -476px;display:block;width:172px;height:43px}.w_yj{margin-right:8px;width:23px;height:18px;background:url(http://i.tq121.com.cn/i/weather2015/city/iconalls.png) no-repeat -177px -501px;margin-top:12px}.w_weather .more{padding:0;z-index:999;border:1px solid #dcdada;position:absolute;right:0;top:40px;background:#fff;box-shadow:4px 1px 9px -3px #888;display:none}.w_weather .more li{height:20px;line-height:20px;position:relative;border-bottom:1px dashed #d6dbe1;width:260px;margin:0 auto;padding:10px 0}.w_weather .more li.on{background:none repeat scroll 0 0 #ebebeb;border:0}.w_weather .more li.on i{background-image:url(http://i.tq121.com.cn/i/weather2014/jpg/blue17d.jpg?v=1)}.w_weather .more li a{color:#669ec0;cursor:pointer;display:block;font-size:13px;height:40px;position:absolute;left:0;top:0;line-height:40px}.w_weather .more li span{line-height:39px; float:left;text-align:left;display:block;overflow:hidden;height:39px;margin-right:6px;font-size:12px;color:#043567;width:70px;text-align:center}.w_weather .more li i{background-image:url(http://i.tq121.com.cn/i/weather2014/jpg/blue17.jpg?v=1);float:left;height:17px;margin:3px 2px;width:17px}.w_weather .more li em{float:left;text-align:right;width:69px;color:#043567;font-size:12px}.w_weather .more li a:hover em{ color:#043567}.w_weather .more li b{background:url(http://i.tq121.com.cn/i/weather2015/city/iconalls.png) no-repeat scroll -39px -649px;font-size:0;cursor:pointer;float:left;height:12px;width:13px;position:absolute;right:10px;top:14px}.w_weather .more li.add{color:#076ea8;text-align:center;height:15px;width:100%;display:block; border:none;}.w_weather .more li.add a{display:block;font-size:22px;padding:0;width:100%;color:#043567;line-height: 32px;}.city_guonei p{height:25px;line-height:25px;border-bottom:1px dotted #97a5b5;width:410px;margin:0 auto;padding:0 10px}.w_weather .more li:hover{background:#f5fafe}.city_guonei p a{color:#6f6f6f;float:none;font-size:12px;margin-bottom:0;padding:0;text-align:left}.city_guonei p span{color:#d0d0d0;float:right}.w_weather .more li em.w_yj{width:25px;background-position:-177px -476px}.footer{border-top:1px solid #eee7e7;background:#f2f2f8;width:100%;clear:both;overflow:hidden}.footer .block{margin:0 auto 10px;position:relative;width:1000px;padding:20px 0 0;margin-bottom:0;height:auto;background:#f2f2f8}.footer h2{width:145px;height:38px;background:url(../i/index_icons.png) no-repeat -160px 3px;float:left;margin:10px 3px 3px 0;overflow:hidden}.footer h2 a{display:block;width:145px;height:38px;text-indent:-9999px}.footer .Lcontent{width:592px;height:130px;float:left}.footer dl{width:115px;padding:15px;float:left;margin:0 3px 3px 0;display:inline}.footer dl dt{line-height:30px;padding-bottom:5px}.footer dl dt h3,.friendLink h3{font-weight:400;font-size:20px}.footer dl dd p,.friendLink p{line-height:25px;text-align:left;}.footer dl p a,.friendLink p a{padding-right:10px;color:#959595;font-size:14px}.footer dl p a:hover,.friendLink p a:hover{color:#ee842f}.friendLink{width:390px;float:right;padding:15px 0 13px 0}.friendLink h3{padding-bottom:5px;line-height:30px}.footer .last{border-top:1px solid #ebebeb;margin-top:5px;padding-top:5px}.serviceinfo{border-top:1px dashed #d5d4d4;padding:20px 0 20px 15px;font-size:12px;line-height:20px;clear:both}.serviceinfo p{height:20px}.serviceinfo p span{display:block;width:334px;float:left}.serviceinfo a,.serviceinfo b{color:#076ea8;font-weight:400}.serviceinfo b{color:#252525}.aboutUs{background-color:#7d7d7d;color:#fff;height:45px;line-height:45px;text-align:center;font-size:12px;width:100%;margin:0 auto}.aboutUs a{color:#fff}.search-box #show li{font-size:15px;height:28px;line-height:28px;list-style-type:none;margin:0;overflow:hidden;padding:0}.search-box #show ul li{cursor:pointer;text-indent:10px}.city_guonei dl dd.jind a{width:61px;overflow:hidden;height:20px}#show ul{border:1px solid #c2d0e7}#show ul li b{color:#f60;font-weight:700}#show ul .select{background-color:#f2f2f8;text-align:left;margin:0;padding:0;color:#252525}#show ul .unselect{padding:0;margin:0}.search-box #show ul{border:1px solid #c2d0e7}#show{display:none}#show{background-color:#FFF;color:#000;display:none;margin:0;overflow-x:hidden;overflow-y:auto;padding:0;position:absolute;top:45px;left:0;width:374px;z-index:99}#show ul{border:1px solid #C2D0E7}#show ul span{background:url(http://i.tq121.com.cn/i/weather2015/index/smile.jpg) no-repeat 10px 5px;display:block;font-size:14px;height:34px;line-height:34px;text-indent:38px}#show li{overflow:hidden;font-size:15px;height:28px;line-height:28px;list-style-type:none;margin:0;padding:0;text-indent:10px}#show ul li b{color:#ee842f;font-weight:normal}.select{background-color:#f2f2f8;margin:0;padding:0;text-align:left}.unselect{margin:0;padding:0}big.icon{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue22.png);height:30px;width:23px;margin:0 2px;position:relative;top:8px;}big.ic{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue22-1.png);height:30px;margin-top:9px;width:28px;float:left}.around span.move,.greatEvent p.time,.livezs li i,.right .list li,.rollLeft,.rollRight,ul.botIcon li{background-image:url(http://i.tq121.com.cn/i/weather2015/city/iconalls.png);background-repeat:no-repeat;display:block}big{margin:0 auto;background-repeat:no-repeat;background-position:-640px 240px;display:block}big.jpg30{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue30.png);height:30px;width:31px}big.png30{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue30.png);height:30px;width:31px}big.jpg50{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue50.png);height:50px;width:50px}big.jpg80{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue80.png);height:80px;width:80px}big.png40{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue30.png);height:30px;width:30px}big.png80{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue80.png);height:80px;width:80px}.around li:hover big.jpg30{background-image:url(http://i.tq121.com.cn/i/weather2015/png/white30.png);height:30px;width:31px}.on big.jpg50{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue50.png);height:50px;width:50px}.on big.jpg80{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue80.png);height:80px;width:80px}.sk big.jpg80{background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue80.png);height:80px;width:80px}big.d0{background-position:0 0}big.d1{background-position:-80px 0}big.d2{background-position:-160px 0}big.d3{background-position:-240px 0}big.d4{background-position:-320px 0}big.d5{background-position:-400px 0}big.d6{background-position:-480px 0}big.d7{background-position:-560px 0}big.d8{background-position:-640px 0}big.d9{background-position:0 -80px}big.d00{background-position:0 0}big.d01{background-position:-80px 0}big.d02{background-position:-160px 0}big.d03{background-position:-240px 0}big.d04{background-position:-320px 0}big.d05{background-position:-400px 0}big.d06{background-position:-480px 0}big.d07{background-position:-560px 0}big.d08{background-position:-640px 0}big.d09{background-position:0 -80px}big.d10{background-position:-80px -80px}big.d11{background-position:-160px -80px}big.d12{background-position:-240px -80px}big.d13{background-position:-320px -80px}big.d14{background-position:-400px -80px}big.d15{background-position:-480px -80px}big.d16{background-position:-560px -80px}big.d17{background-position:-640px -80px}big.d18{background-position:0 -160px}big.d19{background-position:-80px -160px}big.d20{background-position:-160px -160px}big.d21{background-position:-240px -160px}big.d22{background-position:-320px -160px}big.d23{background-position:-400px -160px}big.d24{background-position:-480px -160px}big.d25{background-position:-560px -160px}big.d26{background-position:-640px -160px}big.d27{background-position:0 -240px}big.d28{background-position:-80px -240px}big.d29{background-position:-160px -240px}big.d30{background-position:-240px -240px}big.d31{background-position:-320px -240px}big.d32{background-position:-400px -240px}big.d33{background-position:-480px -240px}big.d53{background-position:-560px -240px}big.d57{background-position:-720px 0}big.d32{background-position:-720px -80px}big.d49{background-position:-720px -160px}big.d58{background-position:-720px -240px}big.d54{background-position:-800px 0}big.d55{background-position:-800px -80px}big.d56{background-position:-800px -160px}big.d301{background-position:-880px 0}big.d302{background-position:-880px -80px}big.n0{background-position:0 -320px}big.n1{background-position:-80px -320px}big.n2{background-position:-160px -320px}big.n3{background-position:-240px -320px}big.n4{background-position:-320px -320px}big.n5{background-position:-400px -320px}big.n6{background-position:-480px -320px}big.n7{background-position:-560px -320px}big.n8{background-position:-640px -320px}big.n9{background-position:0 -400px}big.n00{background-position:0 -320px}big.n01{background-position:-80px -320px}big.n02{background-position:-160px -320px}big.n03{background-position:-240px -320px}big.n04{background-position:-320px -320px}big.n05{background-position:-400px -320px}big.n06{background-position:-480px -320px}big.n07{background-position:-560px -320px}big.n08{background-position:-640px -320px}big.n09{background-position:0 -400px}big.n10{background-position:-80px -400px}big.n11{background-position:-160px -400px}big.n12{background-position:-240px -400px}big.n13{background-position:-320px -400px}big.n14{background-position:-400px -400px}big.n15{background-position:-480px -400px}big.n16{background-position:-560px -400px}big.n17{background-position:-640px -400px}big.n18{background-position:0 -480px}big.n19{background-position:-80px -480px}big.n20{background-position:-160px -480px}big.n21{background-position:-240px -480px}big.n22{background-position:-320px -480px}big.n23{background-position:-400px -480px}big.n24{background-position:-480px -480px}big.n25{background-position:-560px -480px}big.n26{background-position:-640px -480px}big.n27{background-position:0 -560px}big.n28{background-position:-80px -560px}big.n29{background-position:-160px -560px}big.n30{background-position:-240px -560px}big.n31{background-position:-320px -560px}big.n32{background-position:-400px -560px}big.n33{background-position:-480px -560px}big.n53{background-position:-560px -560px}big.n57{background-position:-720px -320px}big.n32{background-position:-720px -400px}big.n49{background-position:-720px -480px}big.n58{background-position:-720px -560px}big.n54{background-position:-800px -320px}big.n55{background-position:-800px -400px}big.n56{background-position:-800px -480px}big.n301{background-position:-880px -320px}big.n302{background-position:-880px -400px}.adposter_pos{background:transparent url(#) repeat scroll 0 0;left:-10000px;position:absolute;z-index:9}.ad{height:93px;overflow:hidden}.ad .ad1{height:90px;overflow:hidden;width:260px}.ad .ad2{float:right;height:100%;margin-left:10px;width:728px}.ad4{height:250px;margin-top:15px;width:300px}.ad3{height:94px;margin-top:15px;width:680px}#adposter_6287{z-index:1006}div#ab_yjfk{left:50%;margin-left:500px;position:fixed;top:370px}.topad_bg{}#duilian{z-index:1006}.nav a:hover{color:#ee842f}#ab_yjjy{margin-right:500px;position:fixed;right:50%;top:395px;}#abs { z-index:10 ;display:none;}.provinceLinks { position:absolute; z-index:3000; top:27px; left:0px; width:100%; height:175px; background-color:#f6fcff;  display:none;box-shadow: -7px 13px 16px -23px #000;}.w_weather em.s:hover{color:#ee842f;}
+.provinceLinks dl { float:left; padding:10px 0px; }
+.provinceLinks dl dt { width:46px; height:40px; background:url(http://i.tq121.com.cn/i/weather2015/zt/t.png) no-repeat -1px -1px; font-size:16px; line-height:20px; padding:13px 10px; text-align:center; float:left; margin-right:4px; }
+.provinceLinks dl .last { padding:13px 5px; width:56px; }
+.provinceLinks a { color:#076ea8; }
+.provinceLinks a:hover { color:#ee842f; }
+
+.provinceLinks dl dd { font-size:16px; float:left; padding:5px 0px; height:56px; line-height:28px; }
+.provinceLinks dl dd a { padding:0px 19px;font-size:16px;font-family:"Microsoft Yahei",Tahoma,SimSun; }
+.provinceLinks .midBlock dl dt a { color:#fff; font-weight: bold;font-size:16px; }
+.sjz{ background:url(http://i.tq121.com.cn/i/weather2015/zt/t.png) no-repeat scroll -9px -72px}
+.provinceLinks .line { border-bottom:0; height:0px; overflow:hidden; float:left; width:1000px; }
+.nav_li { background: #043567; height: 30px; width: 100%; min-width: 1000px; line-height: 30px; }
+.nav_li_box { position: relative; width: 1000px; z-index: 1000; margin: 0 auto; }
+.nav_li_left { float: left; color: #fff; font-size: 12px; width: 720px; }
+.nav_li_left a { color: #fff; display: block; float: left; margin-right: 10px; font-size: 12px; }
+.nav_li_right { float: right; width: 280px; text-align: right; }
+.nav_li_left span { display: block; float: left; margin-right: 10px; }
+.nav_li_right a { color: #fff; font-size: 12px; }
+.weather_li_right a.login_li {display:none; background: url(http://i.tq121.com.cn/i/weather2015/index/indexImgs.png) no-repeat -580px -115px; padding-left: 29px; }
+.nav_addr { width: 1000px; height: 65px; border-bottom: 1px solid #dee8f2; margin: 0 auto; }
+.nav_addr ul li { padding: 0px 8px; margin-bottom: 5px; float: left; }
+.nav_addr ul li a { font-size: 14px; }
+.nav_addr ul { width: 265px; overflow: hidden; float: left; border-right: 1px solid #e0e9f3; }
+.input-btn { width: 20px; right: 10px; top: 10px; position: absolute; height: 20px; background: url("http://i.tq121.com.cn/i/weather2015/index/indexImgs.png") no-repeat -583px -198px; }
+.input-btn input#btnZip { color: #fff; cursor: pointer; font-family: 微软雅黑; font-size: 16px; height: 20px; margin-left: 3px; text-indent: 0; width: 20px; background: none; border:none;}
+.input-btn input#btnZip:hover { border: none; }
+.search { width: 370px; height: 40px; border: 1px solid #cad1d8;border-radius:4px; }
+.select_li { display:none;border: 1px solid #a7b5c2; float: left; height: 40px; z-index: 12; left: -1px; overflow: hidden; background: url(http://i.tq121.com.cn/i/weather2015/index/indexImgs.png) no-repeat -544px -143px #fff; position: absolute; top: -1px; width: 60px; }
+.select_li p { height: 40px; text-align: center; width: 60px; line-height: 40px; cursor: pointer; }
+.select_li b { display: block; background: #fff; height: 40px; line-height: 40px; text-align: center; cursor: pointer; font-weight: normal; }
+.select_li b:hover { color: #ee842f }
+.select_li b.m_li { background: #eaf4fe }
+.search input#txtZip { margin-left: 0px; width: 329px; border: none; background: #fff; height: 40px; border: 0px; }
+/*.search input#txtZip { margin-left: 60px; width: 269px; border: none; background: #fff; height: 40px; border-left: 0px solid #ccc; }*/
+.search input#txtZip:hover { border: none; border-left: 0px solid #a7b5c2; }
+.search-box { margin: 0 0 0 153px; position: relative; width: 373px; }
+/*预报详情页*/
+.weather_li { background: #043567; height: 40px; width: 100%; min-width: 1000px; line-height: 40px;position:relative;z-index:1501; }
+.weather_li_left { float: left; color: #fff; font-size: 12px; width: 620px; }
+.weather_li_left a { color: #fff; display: block; float: left; margin-right: 17px; font-size: 12px; }
+.weather_li_head { height: 75px; width: 100%; min-width: 1000px; background: #f2f2f8;margin-bottom:10px;position:relative;z-index:1500; }
+.weather_li_box { margin: 0 auto; width: 1000px; }
+.weather_li_right { float: right; width: 320px; height: 40px; text-align: right; }
+.weather_li_right em { font-size: 12px; color: #fff; }
+.weather_li_right .w_weather em.s { color: #fff; font-size: 12px; }
+.weather_li_right .w_weather a:hover em.s{ color: #ee842f;  }
+
+.weather_li_right .w_weather { margin-top: 0; height: 40px; float: right; }
+.login_li { color: #fff; font-size: 12px; }
+.w_li_logo { width: 300px; }
+.w_li_logo a { background:url(http://i.tq121.com.cn/i/weather2015/index/indexImgs.png) no-repeat -335px -213px; display: block; height: 34px; margin-top: 20px; float: left; border-right: 1px solid #ccc; width: 162px; }
+.w_li_logo span { float: left; margin-top: 20px; display: inline;  margin-left: 15px; font-size: 22px; color:#252525}
+.weather_li_left div.more_li { padding: 0px 25px; padding-left:15px;position: relative; float: left; cursor: pointer; background: url("http://i.tq121.com.cn/i/weather2015/index/indexImgs.png") no-repeat -548px -144px; display: block; font-size:12px;}
+.weather_li_left a:hover { color: #ee842f; }
+.weather_li_left div.more_li:hover { color: #ee842f; background:url("http://i.tq121.com.cn/i/weather2015/index/indexImgs.png") no-repeat #fff -548px -277px }
+.weather_li_open { width: 425px; height: 100px; position: absolute; display: none; left: -323px; top: 40px; border: 1px solid #d8d8da; border-top: none; background: #fff; }
+.weather_li_open p { border-bottom: 1px dashed #d7d8dd;height: 50px;line-height: 50px; margin: 0 auto 0 3%;  width: 93%;
+}
+.weather_li_open p a { color: #252525; margin-right: 0; padding: 0px 9px; font-size: 12px; }
+.weather_li_open p.erp a{padding:0px 8px;}
+.weather_li_open p a:hover { color: #ee842f; }
+.w_weather a.add {line-height:100px;overflow:hidden; }
+big.icon { background-image: url(http://i.tq121.com.cn/i/weather2015/png/white22.png); }
+.w_weather span em { font-size: 12px; }
+.w_weather span { height: 40px; line-height: 40px; }
+.w_weather em.s { height: 40px; line-height: 40px; }
+#w_weather a.add{
+    background-position: -12px -616px;
+}
+#w_weather a.dz_right {
+    background-position: -60px -615px;
+}
+#w_weather a.dz_down{
+    background-position: -38px -615px;
+}
+.locationSearch .search{border:none;}
+.w_weather a:hover big.icon{
+    background-image:url(http://i.tq121.com.cn/i/weather2015/png/blue22-2.png);
+    }
+.w_weather a:hover em{
+color:#ee842f}
+.footer .serviceinfo a{font-size:12px;}
+input::-webkit-search-cancel-button{
+display: none;
+} 
+input::-ms-clear{
+display: none;
+} 
+</style>
+
+<div class="weather_li">
+	<div class="nav_li_box">
+    	<div class="weather_li_left">
+        	<a target="_blank" href="http://www.weather.com.cn/">首页</a>
+            <a target="_blank" href="http://www.weather.com.cn/forecast/">预报</a>
+            <a target="_blank" href="http://www.weather.com.cn/satellite/">云图</a>
+            <a target="_blank" href="http://www.weather.com.cn/radar/">雷达</a>
+            <a target="_blank" href="http://www.weather.com.cn/live/">临近预报</a>
+            <a target="_blank" href="http://products.weather.com.cn/">专业产品</a>
+            <a target="_blank" href="http://news.weather.com.cn/">资讯</a>
+            <a target="_blank" href="http://www.weather.com.cn/life/">生活</a>
+            <a href="http://www.weather.com.cn/forecast/skiweather.shtml" target="_blank">滑雪</a>
+            <a target="_blank" href="http://www.weatherdt.com/">产创平台</a>
+            <a target="_blank" href="" class="shengjz"></a>
+            <div href="javascript:void(0)" class="more_li">更多
+            <div class="weather_li_open">
+        		<p>
+                    <a target="_blank" href="http://www.weather.com.cn/alarm/">预警</a>
+                    <a target="_blank" href="http://typhoon.weather.com.cn/">台风路径</a>
+                    <a target="_blank" href="http://www.weather.com.cn/space/">空间天气</a>
+                    <a target="_blank" href="http://p.weather.com.cn/">图片</a>
+                    <a target="_blank" href="http://www.weather.com.cn/video/">视频</a>
+                    <a target="_blank" href="http://www.weather.com.cn/zt/">专题</a>
+                    <a target="_blank" href="http://www.weather.com.cn/air/">环境</a>
+                    <a  href="http://www.weather.com.cn/science/" target="_blank">科普</a>
+                </p>
+                <p style="border:none;" class="erp">
+                    <a target="_blank" href="http://www.weather.com.cn/trip/">旅游</a>
+                    <a target="_blank" href="http://www.sportsweather.cn/golf/">高尔夫</a>
+                    <a target="_blank" href="http://www.weather.com.cn/jt/">交通</a>
+                    <a target="_blank" href="http://www.weather.com.cn/fzjz/">减灾</a>
+                    <a target="_blank" href="http://www.weather.com.cn/climate/">气候变化</a>
+                    <a target="_blank" href="http://marketing.weather.com.cn/">商业合作</a>
+                    <a target="_blank" href="http://www.weather.com.cn/province/">省级站</a>
+                    <a target="_blank" href="http://club.weather.com.cn/">社区</a>
+                </p>
+            </div>
+            
+            </div>                                                  
+        </div>
+        <div class="weather_li_right">
+        	  <div class="w_weather" id="w_weather">	</div><a href="#" class="login_li">登录</a>
+        </div>
+        
+    </div>
+</div>
+<div class="weather_li_head">
+	<div class="weather_li_box">
+    	<div class="w_li_logo fl">
+        	<a href="http://www.weather.com.cn/"></a>
+            <span></span>
+        </div>
+        <div class="search-box fl" style=" float:right; margin-top:16px;">
+<div class="search clearfix">
+<div class="select_li">
+	<p>天气</p>
+    <b class="m_li">天气</b>
+    <b>资讯</b>
+</div>
+<input type="text" value="输入城市名、景点名 查天气" id="txtZip" class="textinput text fl">
+
+<span class="input-btn"><input type="button" value="" id="btnZip" class="btn ss fl"></span>
+<div class="clear"></div>
+</div>
+<div class="inforesult"> </div>
+<div id="show">
+<ul>
+</ul>
+</div>
+<div class="city-box">
+<div class="city-tt"> <a href="javascript:void(0)" class="cur">正在热搜</a> <a href="javascript:void(0)" >本地周边</a> <b></b> </div>
+<div class="w_city city_guonei" style="display:block; padding-bottom:0">
+<dl>
+<dt>国内</dt>
+<dd>  <a href="http://www.weather.com.cn/weather1d/101010100.shtml#search">北京</a> <a href="http://www.weather.com.cn/weather1d/101020100.shtml#search">上海</a> <a href="http://www.weather.com.cn/weather1d/101210101.shtml#search">杭州</a> <a href="http://www.weather.com.cn/weather1d/101280101.shtml#search">广州</a> <a href="http://www.weather.com.cn/weather1d/101200101.shtml#search">武汉</a> <a href="http://www.weather.com.cn/weather1d/101190101.shtml#search">南京</a> <a href="http://www.weather.com.cn/weather1d/101280601.shtml#search">深圳</a> <a href="http://www.weather.com.cn/weather1d/101190401.shtml#search">苏州</a> <a href="http://www.weather.com.cn/weather1d/101230201.shtml#search">厦门</a> <a href="http://www.weather.com.cn/weather1d/101220101.shtml#search">合肥</a> <a href="http://www.weather.com.cn/weather1d/101250101.shtml#search">长沙</a>  <a href="http://www.weather.com.cn/weather1d/101270101.shtml#search">成都</a> 
+</dd>
+</dl>
+<dl>
+<dt>国际</dt>
+<dd> <a href="http://www.weather.com.cn/weather1d/102010100.shtml#search">首尔</a> <a href="http://www.weather.com.cn/weather1d/104010100.shtml#search">新加坡</a> <a href="http://www.weather.com.cn/weather1d/106010100.shtml#search">曼谷</a> <a href="http://www.weather.com.cn/weather1d/401110101.shtml#search">纽约</a> <a href="http://www.weather.com.cn/weather1d/124020100.shtml#search">迪拜</a> <a href="http://www.weather.com.cn/weather1d/103163100.shtml#search">大阪</a> <a href="http://www.weather.com.cn/weather1d/601020101.shtml#search">悉尼</a> <a href="http://www.weather.com.cn/weather1d/601060101.shtml#search">墨尔本</a> <a href="http://www.weather.com.cn/weather1d/401040101.shtml#search">洛杉矶</a> <a href="http://www.weather.com.cn/weather1d/105010100.shtml#search">吉隆坡</a> </dd>
+</dl>
+<dl>
+<dt>景点</dt>
+<dd> <a href="http://www.weather.com.cn/weather1d/10101010018A.shtml#search">故宫</a> <a href="http://www.weather.com.cn/weather1d/10130051008A.shtml#search">阳朔漓江</a> <a href="http://www.weather.com.cn/weather1d/10118090107A.shtml#search">龙门石窟</a> <a href="http://www.weather.com.cn/weather1d/10109022201A.shtml#search">野三坡</a> <a href="http://www.weather.com.cn/weather1d/10101020015A.shtml#search">颐和园</a> <a href="http://www.weather.com.cn/weather1d/10127190601A.shtml#search">九寨沟</a> <a href="http://www.weather.com.cn/weather1d/10102010007A.shtml#search">东方明珠</a> <a href="http://www.weather.com.cn/weather1d/10125150503A.shtml#search">凤凰古城</a> <a href="http://www.weather.com.cn/weather1d/10111010119A.shtml#search">秦始皇陵</a> <a href="http://www.weather.com.cn/weather1d/10125060301A.shtml#search">桃花源</a> </dd>
+</dl>
+<dl style="margin-bottom:5px;border:none;">
+<dt>高球</dt>
+<dd> 
+<a href="http://www.sportsweather.cn/weather/10102090003F.shtml#search">佘山</a> 
+<a href="http://www.sportsweather.cn/weather/10129010601F.shtml#search">春城湖畔</a>
+ <a href="http://www.sportsweather.cn/weather/10101070004F.shtml#search">华彬庄园</a>
+ <a href="http://www.sportsweather.cn/weather/10128060113F.shtml#search">观澜湖</a> 
+<a href="http://www.sportsweather.cn/weather/10131010107F.shtml#search">依必朗</a>
+ <a href="http://www.sportsweather.cn/weather/10102080001F.shtml#search">旭宝</a>
+ <a href="http://www.sportsweather.cn/weather/10131021101F.shtml#search">博鳌</a> 
+<a href="http://www.sportsweather.cn/weather/10129140501F.shtml#search">玉龙雪山</a> 
+<a href="http://www.sportsweather.cn/weather/10128010103F.shtml#search">番禺南沙</a>
+ <a href="http://www.sportsweather.cn/weather/10101040001F.shtml#search">东方明珠</a> 
+</dd></dl>
+</div>
+<div class="w_city city_guonei gn">
+<dl>
+<dt>地区</dt>
+<dd class="diq"></dd>
+</dl>
+<dl style="border:none;margin-bottom:5px;">
+<dt>景点</dt>
+<dd class="jind"></dd>
+</dl>
+</div>
+</div>
+</div>
+    </div>
+</div>
+<script type="text/javascript" src="http://i.tq121.com.cn/j/core.js"></script>
+
+<link href="http://i.tq121.com.cn/c/weather2015/common.css" rel="stylesheet" type="text/css">
+<link href="http://i.tq121.com.cn/c/weather2015/c_7d.css" rel="stylesheet" type="text/css">
+<input id="whichDay" type="hidden" value="40d" >
+
+<div class="con today clearfix">
+		<div class="left fl">
+		<div class="ctop clearfix">
+			<div class="crumbs fl">
+				<a href="http://sh.weather.com.cn" target="_blank">上海</a>
+				<span>></span>
+				 <span>城区</span>
+			</div>
+			<div class="time fr"></div>
+		</div>
+		<ul class="clearfix cnav" id="someDayNav">
+			<li>
+				<a href="/weather1d/101020100.shtml">今天</a>
+			</li>
+			
+			<li>
+				<a href="/weather/101020100.shtml">7天</a>
+			</li>
+			<li>
+				<a href="/weather15d/101020100.shtml">更长时间</a>
+			</li>
+			<li class="on">
+				<a href="/weather40d/101020100.shtml">天气日历</a><span></span>
+			</li>
+			<li>
+				<a href="http://products.weather.com.cn/product/radar/index/procode/JC_RADAR_AZ9210_JB" target="_blank">雷达图</a>
+			</li>
+		</ul>
+		 <script type="text/javascript" src="http://i.tq121.com.cn/j/jquery-1.8.2.js" ></script>
+<script src="http://i.tq121.com.cn/j/tool/raphael.js"></script>
+<script type="text/javascript" src="http://i.tq121.com.cn/j/weather2015/c_40d.js?sc"></script>
+<!--<script type="text/javascript" src="http://10.14.85.153/c_40d.js?"></script>-->
+<link type="text/css" href="http://i.tq121.com.cn/c/weather2015/c_40d.css?2s" rel="stylesheet">
+	 
+		 <input type="hidden" value="" id="update_time">
+		 <div class="city_40">
+		<div class="W_left">
+				<div class="title"> 
+					<div class="r">
+					<span class="tit">蓝天预报</span>
+					<i class="turn" id="sky-on">
+						<i style="left: 0px;"></i>
+					</i>
+					<i class="icon"></i>
+					<div class="skypop" style="display: none;">
+						<h3>蓝天预报综合天气现象、能见度、空气质量等因子，预测未来一周的天空状况。</h3>
+						<ul>
+							<li class="lv1">
+								<em></em><span>天空蔚蓝</span>
+								<b>可见透彻蓝天，或有蓝天白云美景。</b>
+							</li>
+							<li class="lv2">
+								<em></em><span>天空淡蓝</span>
+								<b>天空不够清澈，以浅蓝色为主。</b>
+							</li>
+							<li class="lv3">
+								<em></em><span>天空阴沉</span>
+								<b>阴天或有雨雪，天空灰暗。</b>
+							</li>
+							<li class="lv4">
+								<em></em><span>天空灰霾</span>
+								<b>出现霾或沙尘，天空灰蒙浑浊。</b>
+							</li>
+						</ul>
+						<i class="s"></i>
+					</div>
+				</div>
+					<span class="fhjt"><a href="javascript:void(0)">今天</a></span>
+						<div class="L_nian">
+								<input type="text" readonly value="2015年" class="input_nian">
+								<span class="L_icon"></span>
+								
+						</div>
+						<div class="L_yue"> <span class="Y_left"></span>
+								<input type="text" readonly value="1月" class="input_yue">
+								<span class="Y_icon"></span><span class="Y_right"></span>
+								
+						</div>
+						<div class="zong"> </div>
+						<div class="w_nian">
+								<h1><span>2015</span><span>2016</span></h1>
+								<ul>
+										<li><a href="javascript:void(0)">1月</a></li>
+										<li><a href="javascript:void(0)">2月</a></li>
+										<li><a href="javascript:void(0)">3月</a></li>
+										<li><a href="javascript:void(0)">4月</a></li>
+										<li><a href="javascript:void(0)">5月</a></li>
+										<li><a href="javascript:void(0)">6月</a></li>
+										<li><a href="javascript:void(0)">7月</a></li>
+										<li><a href="javascript:void(0)">8月</a></li>
+										<li><a href="javascript:void(0)">9月</a></li>
+										<li><a href="javascript:void(0)">10月</a></li>
+										<li><a href="javascript:void(0)">11月</a></li>
+										<li><a href="javascript:void(0)">12月</a></li>
+								</ul>
+								<ul>
+										<li><a href="javascript:void(0)">1月</a></li>
+										<li><a href="javascript:void(0)">2月</a></li>
+										<li><a href="javascript:void(0)">3月</a></li>
+										<li><a href="javascript:void(0)">4月</a></li>
+										<li><a href="javascript:void(0)">5月</a></li>
+										<li><a href="javascript:void(0)">6月</a></li>
+										<li><a href="javascript:void(0)">7月</a></li>
+										<li><a href="javascript:void(0)">8月</a></li>
+										<li><a href="javascript:void(0)">9月</a></li>
+										<li><a href="javascript:void(0)">10月</a></li>
+										<li><a href="javascript:void(0)">11月</a></li>
+										<li><a href="javascript:void(0)">12月</a></li>
+								</ul>
+						</div>
+				</div>
+		</div>
+		<div class="W_left">
+				<table cellspacing="2" cellpadding="0" border="0" id="table">
+						<tbody>
+								<tr>
+										<th style="width:36px;border:none; display:none;"></th>
+										<th style="border-left:none;width:101px;" class="orange">日</th>
+										<th>一</th>
+										<th>二</th>
+										<th>三</th>
+										<th>四</th>
+										<th>五</th>
+										<th style="" class="orange">六</th>
+								</tr>
+								<tr>
+										<th class="zhou">第1周</th>
+										<td class="aaa">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="number aaa">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="aaa">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="aaa">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="aaa">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="aaa">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+								</tr>
+								<tr>
+										<th class="zhou">第2周</th>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="number">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+								</tr>
+								<tr>
+										<th class="zhou">第3周</th>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="number">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+								</tr>
+								<tr>
+										<th class="zhou">第4周</th>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="number">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="" style="position:relative;">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="d40">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+								</tr>
+								<tr>
+										<th class="zhou">第5周</th>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="number">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+								</tr>
+								<tr>
+										<th class="zhou">第6周</th>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="number">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+										<td class="">
+												<h2><span class="nongli"></span><span class="nowday orange"></span></h2>
+												<div class="w_xian">
+														<p><span class="max"></span><span class="min"></span></p>
+														<a title="降水概率"><span class="tubiao"></span></a> <span class="text"></span> </div>
+												<div class="sk_40"></div>
+												<div class="k">
+														<h1></h1>
+														<div class="w_riqi"> </div>
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;height:34px;"></big> <i></i> </span> <span class="w_night"> <big class="" style="margin:0;height:21px;"></big> <i></i> </span> </dt>
+																<dd>
+																		<p><span class="w_tip"></span><span class="w_xx"></span><span class="w_aqi"></span></p>
+																		<p class="w_tqxx"> </p>
+																		<p class="w_flfx"> </p>
+																		<p class="w_ls">历史均值<b class="w_lswd"> </b><i class="w_jsgl" title="降水概率"> </i></p>
+																</dd>
+														</dl>
+												</div>
+												<div class="ks">
+														<dl>
+																<dt> <span class="w_day"> <big style="margin:0;"></big> <i></i> </span> <span class="w_night"> <big style="margin:0;"></big> <i></i> </span> </dt>
+														</dl>
+												</div>
+										<div class="xiu"></div><div class="ban"></div></td>
+								</tr>
+						</tbody>
+				</table>
+				<div class="W_left date_rili">
+				<div class="title">
+						<div class="L_nian">
+								<input type="text" readonly value="" class="input_nian">
+								<span class="L_icon"></span>
+								
+						</div>
+						<div class="L_yue"> <span class="Y_left left_rili"></span>
+								<input type="text" readonly value="" class="input_yue">
+								<span class="Y_icon"></span><span class="Y_right right_rili"></span>
+								
+						</div>
+						
+										</div>
+		</div>
+				<div id="holder">
+						<div class="y"> </div>
+						<div class="x"> </div>
+						<em class="dy">℃</em> <b class="dx">日</b> <i class="turnLeft"></i> <i class="turnRight"></i>
+						<ul class="stxt">
+								<li class="li1"><em></em><span>高温预报</span></li>
+								<li class="li2"><em></em><span>低温预报</span></li>
+								<li class="li3"><em></em><span>历史均值高温</span></li>
+								<li class="li4"><em></em><span>历史均值低温</span></li>
+						</ul>
+				</div>
+				<div class="explain">
+				<p><i></i><span>16-40天预报属于客观预报产品，反应的是未来天气变化趋势、请随时关注最新预报.....</span></p>
+				<div>16-40天预报数据来源于国家气候中心，是根据全球数值天气预报模式客观预报系统加工而成，未经预报员主观订正，反映未来一段时间内天气变化趋势，具有一定的不确定性，供公众参考，欲知更加准确的天气预报需随时关注短期天气预报和最新预报信息更新。</div>
+			</div>
+		</div>
+</div>
+     <div id="around" class="around">
+								<div class="aro_city" style="display:block;">
+					<input type="hidden" id="around_city_china_update_time" value="2016121308"/>
+<h1 class="clearfix city">
+<span class="move">周边地区</span>
+<em>|</em>
+<span>周边景点</span>
+<i>2016-12-13 11:30更新</i>
+</h1>
+<ul class="clearfix city">
+<li>
+<a href="http://www.weather.com.cn/weather1d/101210101.shtml#around2" target="_blank">
+<span>杭州</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>14/5°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101190501.shtml#around2" target="_blank">
+<span>南通</span>
+<p class="img clearfix">
+<big class="jpg30 d08"></big>
+<em>/</em>
+<big class="jpg30 n02"></big>
+</p>
+<i>13/4°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101191101.shtml#around2" target="_blank">
+<span>常州</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n03"></big>
+</p>
+<i>12/4°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101210501.shtml#around2" target="_blank">
+<span>越城</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>14/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101210201.shtml#around2" target="_blank">
+<span>湖州</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>11/5°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101210401.shtml#around2" target="_blank">
+<span>宁波</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>14/7°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101210301.shtml#around2" target="_blank">
+<span>嘉兴</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n02"></big>
+</p>
+<i>12/5°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101211101.shtml#around2" target="_blank">
+<span>舟山</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/6°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101190401.shtml#around2" target="_blank">
+<span>苏州</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n02"></big>
+</p>
+<i>14/6°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101190201.shtml#around2" target="_blank">
+<span>无锡</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n02"></big>
+</p>
+<i>13/4°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101190408.shtml#around2" target="_blank">
+<span>太仓</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n02"></big>
+</p>
+<i>14/5°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/101190507.shtml#around2" target="_blank">
+<span>启东</span>
+<p class="img clearfix">
+<big class="jpg30 d08"></big>
+<em>/</em>
+<big class="jpg30 n02"></big>
+</p>
+<i>13/5°C</i>
+</a>
+</li>
+</ul>
+				</div>
+				<div class="aro_view">
+					<input type="hidden" id="around_city_travel_update_time" value="20161213080000"/>
+<h1 class="clearfix view">
+<span>周边地区</span>
+<em>|</em>
+<span class="move">周边景点</span>
+<i>2016-12-13 11:30更新</i>
+</h1>
+<ul class="clearfix view">
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010002A.shtml#around2" target="_blank">
+<span>鲁迅公园</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010003A.shtml#around2" target="_blank">
+<span>上海犹太难民纪念馆</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010012A.shtml#around2" target="_blank">
+<span>m50创意园</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010013A.shtml#around2" target="_blank">
+<span>田子坊</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010004A.shtml#around2" target="_blank">
+<span>兰心戏院旧址</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010005A.shtml#around2" target="_blank">
+<span>上海城市规划展示馆</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010006A.shtml#around2" target="_blank">
+<span>豫园</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010007A.shtml#around2" target="_blank">
+<span>东方明珠塔</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010008A.shtml#around2" target="_blank">
+<span>陆家嘴中心绿地</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010009A.shtml#around2" target="_blank">
+<span>上海自然博物馆(上海科技馆分馆)</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010010A.shtml#around2" target="_blank">
+<span>白云观</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+<li>
+<a href="http://www.weather.com.cn/weather1d/10102010011A.shtml#around2" target="_blank">
+<span>上海博物馆</span>
+<p class="img clearfix">
+<big class="jpg30 d07"></big>
+<em>/</em>
+<big class="jpg30 n07"></big>
+</p>
+<i>15/8°C</i>
+</a>
+</li>
+</ul>
+				</div>
+						</div>
+
+					 <div class="hdImgs">
+				<h3><span><a href="http://p.weather.com.cn/" target="_blank">>></a></span><a href="http://p.weather.com.cn/" target="_blank">高清图集</a></h3>
+				<a id="img1" href="http://p.weather.com.cn/2016/12/2631749.shtml"  target="_blank"><img src="http://pic.weather.com.cn/images/cn/photo/2016/12/13/13142107152E927FF62413D45D5C698E91908056.jpg" target="_blank" width="167"  height="126"/><b>山西多地迎降雪</b><i></i></a>
+
+				<a id="img2" href="http://p.weather.com.cn/2016/12/2631626.shtml"  target="_blank"><img src="http://pic.weather.com.cn/images/cn/photo/2016/12/13/13102210450D1A47CAAC3B88F73F38AEEA35FE8E.jpg" target="_blank" width="167"  height="126"/><b>震撼星空：零下30度的蓝色寒冷夜空</b><i></i></a>
+
+				<a id="img3" href="http://p.weather.com.cn/2016/12/2631830.shtml"  target="_blank"><img src="http://pic.weather.com.cn/images/cn/photo/2016/12/13/13161239BAD59282ACC8A33919F099E1A1EB6B92.jpg" target="_blank" width="338"  height="255"/><b>西安一高校内数百拴马桩“戴口罩”</b><i></i></a>
+
+				<a id="img4" href="http://p.weather.com.cn/2016/12/2631524.shtml"  target="_blank"><img src="http://pic.weather.com.cn/images/cn/photo/2016/12/13/13090226444F8411980F646AC3FD0B991362EAB6.jpg" target="_blank" width="167"  height="126"/><b>生态破坏下的冰川</b><i></i></a>
+
+				<a id="img5" href="http://p.weather.com.cn/2016/12/2631675.shtml"  target="_blank"><img src="http://pic.weather.com.cn/images/cn/photo/2016/12/13/13105706BFA5DC5221B3CFA4C77B865EA63DEBE8.jpg" target="_blank" width="167"  height="126"/><b>呼伦贝尔渔民-30℃低温冬捕</b><i></i></a>
+
+			</div>
+								<div class="greatEvent">
+   <h1>近期重大天气事件</h1>
+   <ul>
+   
+
+      <li>
+<a href="http://news.weather.com.cn/2016/12/2631639.shtml" target="_blank">
+	<p class="time">12月13日</p><img src="http://i.weather.com.cn/images/cn/news/2016/12/13/13104232F75A8E5D4BF2362380E5F6E7524E9F26.jpg" width="112" height="84" alt="冷空气来袭 吉林大雪致高速关闭气温降幅达22℃">
+	<div><h2>  冷空气来袭 吉林大雪致高速关闭气温降幅达22℃  </h2><p>受冷空气影响，今天吉林气温出现大幅“跳水”，个别地区降温幅度达到22℃，降雪加上气温低迷，吉林多条高速路段出现道路结冰，9个入站口被关闭。</p>	</div>
+</a>     
+ </li>
+      
+
+      <li>
+<a href="http://news.weather.com.cn/2016/12/2630974.shtml" target="_blank">
+	<p class="time">12月12日</p><img src="http://i.weather.com.cn/images/cn/news/2016/12/11/11160007A818A3B76D952485822B342EFEE03A04.jpg" width="112" height="84" alt="冷空气将袭中东部 雾霾消散气温大跳水">
+	<div><h2>  冷空气将袭中东部 雾霾消散气温大跳水  </h2><p>今天白天，北京、天津、河北、山西、陕西有重度霾。今夜起，一股冷空气来驱霾，同时中东部大部地区气温将普遍下降4-8℃，局地可超10℃。辽宁、吉林等地部分地区有中到大雪，局地暴雪。</p>	</div>
+</a>     
+ </li>
+      
+
+      <li>
+<a href="http://www.weather.com.cn/index/2016/12/2630855.shtml" target="_blank">
+	<p class="time">12月11日</p><img src="http://i.weather.com.cn/images/cn/news/2016/12/10/10175839C6BB11BC36805FCB15754D5FF3AB913A.jpg" width="112" height="84" alt="强降雪再袭东北 华北黄淮今明天雾霾最重">
+	<div><h2>  强降雪再袭东北 华北黄淮今明天雾霾最重  </h2><p>歇了两天后，新一轮大范围降雪今（11日）夜起又将在东北地区拉开序幕，同时，随着空气扩散条件继续变差，今夜到明天白天，华北黄淮等地也将迎来此轮雾霾最严重时段，局地PM2.5浓度或达500微克每立方米。</p>	</div>
+</a>     
+ </li>
+      
+
+      <li>
+<a href="http://www.weather.com.cn/index/2016/12/2630481.shtml" target="_blank">
+	<p class="time">12月10日</p><img src="http://i.weather.com.cn/images/cn/news/2016/12/10/10074032DDFEDB46566ABB636B2749F94E970C16.jpg" width="112" height="84" alt="华北黄淮霾持续至12日 吉林辽宁迎大雪">
+	<div><h2>  华北黄淮霾持续至12日 吉林辽宁迎大雪  </h2><p>今起至12日华北黄淮等地又将遭遇“霾伏”，其中11日夜间到12日白天霾最强。另外，今天东北地区降雪暂歇，明天又将迎来新一轮降雪过程，辽宁、吉林等地有中到大雪，局地暴雪。</p>	</div>
+</a>     
+ </li>
+      
+
+      <li>
+<a href="http://news.weather.com.cn/2016/12/2629946.shtml" target="_blank">
+	<p class="time">12月9日</p><img src="http://i.weather.com.cn/images/cn/news/2016/12/08/08172440404F6E6F0D125989D022E5CE35646586.jpg" width="112" height="84" alt="华北黄淮雾霾周末加重 四川等地大雾持续">
+	<div><h2>  华北黄淮雾霾周末加重 四川等地大雾持续  </h2><p>12月上旬，影响我国的冷空气总体较弱。从昨天（8日）开始，华北、黄淮等地的霾天气减弱消散，不过今夜起又将发展加重。近期，新疆北部多降雪，局地积雪创下历史纪录。</p>	</div>
+</a>     
+ </li>
+      
+
+      <li>
+<a href="http://p.weather.com.cn/2016/12/2629768.shtml" target="_blank">
+	<p class="time">12月8日</p><img src="http://pic.weather.com.cn/images/cn/photo/2016/12/08/081358324749D61CF4E4CDF3EA88AEF226502A2D.jpg" width="112" height="84" alt="辽宁遭遇强降雪 交通出行受到影响">
+	<div><h2>  辽宁遭遇强降雪 交通出行受到影响  </h2><p>12月8日早上6时许，辽宁降雪自西向东逐渐开始，多地降雪达到大雪量级，沈阳、鞍山、辽阳、铁岭等地均发布大雪黄色预警。降雪同时偏北风较大，能见度降低，给市民出行带来影响。</p>	</div>
+</a>     
+ </li>
+      
+
+      <li>
+<a href="http://news.weather.com.cn/2016/12/2628705.shtml" target="_blank">
+	<p class="time">12月6日</p><img src="http://i.weather.com.cn/images/cn/news/2016/12/06/06105615255E8C2EB46B74C1B067C868EF6B3E96.jpg" width="112" height="84" alt="北疆再迎大雪积雪达半米 降雪将贯穿本周">
+	<div><h2>  北疆再迎大雪积雪达半米 降雪将贯穿本周  </h2><p>昨天，新疆北部阿勒泰一带再度飘雪，阿勒泰、富蕴、青河等多地出现大雪。随着降雪的不断增加，今晨青河积雪深度已达到半米，没过小腿。预计，新疆北部此轮降雪将贯穿本周。</p>	</div>
+</a>     
+ </li>
+      
+
+      <li>
+<a href="http://news.weather.com.cn/2016/12/2627961.shtml" target="_blank">
+	<p class="time">12月5日</p><img src="http://i.weather.com.cn/images/cn/news/2016/12/04/04155416232949B034F05C482B07CFCC88F0F16C.jpg" width="112" height="84" alt="入冬来最重雾霾今日消散 东北迎寒潮">
+	<div><h2>  入冬来最重雾霾今日消散 东北迎寒潮  </h2><p>今天（5日），受一股较强冷空气影响，华北、黄淮等地的雾霾天气将逐渐减弱消散。不过，中东部将迎来大风降温天气，其中，东北地区降温最为剧烈，吉林北部和黑龙江一带累计降温幅度可达10-12℃，需注意防寒保暖。</p>	</div>
+</a>     
+ </li>
+      
+   </ul>
+</div>
+
+				</div>
+	<div class="right fr">
+		
+						<div class="pic">
+   <h1><span><a target="_blank" href="http://p.weather.com.cn" _hover-ignore="1">>></a></span><a href="http://p.weather.com.cn" target="_blank">精彩图集</a></h1>
+   <div id='scrollPic' class="m">
+      <ul class="bigImg clearfix">
+
+           
+         <li><a href="http://p.weather.com.cn/2016/12/2631333.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/public/2016/12/13/13094554A9AA0396882F25DDD004DB141AB35E9F.jpg" alt="13省市区等风来 地标在雾霾中“隐身”" width="300" height="227"></a></li>
+           
+         <li><a href="http://p.weather.com.cn/2016/12/2631139.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/public/2016/12/13/13094442CCAFE9296621B827764481F950097DDE.jpg" alt="13张照片还原真实宇宙 令人窒息的震撼美" width="300" height="227"></a></li>
+           
+         <li><a href="http://p.weather.com.cn/2016/12/2630529.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/public/2016/12/13/13094747A9053AF3C24E439397AA7968D3F5EB0E.jpg" alt="战斗民族就是强悍！-53℃ 仍不停课" width="300" height="227"></a></li>
+           
+         <li><a href="http://p.weather.com.cn/2016/12/2631626.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/public/2016/12/13/13104011F5180A4A109212085B58847E88D664D3.jpg" alt="震撼星空：零下30度的蓝色寒冷夜空" width="300" height="227"></a></li>
+           
+         <li><a href="http://p.weather.com.cn/2016/12/2629574.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/public/2016/12/13/130948565B768378C404FA87A91804C06F251A6B.jpg" alt="世界上最梦幻的二十个地方 难得一见！" width="300" height="227"></a></li>
+           
+         <li><a href="http://p.weather.com.cn/2016/12/2629590.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/public/2016/12/13/130950208702C510EAF0A798262EFAC31B55696F.jpg" alt="美国国家地理年度最佳照片 内涵丰富" width="300" height="227"></a></li>
+         
+      </ul>
+					
+      <ul class="botIcon clearfix">
+      </ul>
+      <p></p>
+      <div class="bottomBg"></div>
+      <div class="rollLeft"></div>
+      <div class="rollRight"></div>
+   </div>
+</div>
+<!--焦点图end-->
+<ul class="list">
+   <li><a href="http://p.weather.com.cn/2016/12/2631277.shtml" target="_blank" style="color:" > 2016年，大熊猫是这样过的 </a></li>  
+
+   <li><a href="http://p.weather.com.cn/2016/12/2631114.shtml" target="_blank" style="color:" > 近亿年前化石被发现 恐龙尾巴上长羽毛 </a></li>  
+
+   <li><a href="http://p.weather.com.cn/2016/12/2630643.shtml" target="_blank" style="color:" > 宛如仙境！摄影师耗时8年拍摄梦幻雾浪 </a></li>  
+
+   <li><a href="http://p.weather.com.cn/2016/12/2631079.shtml" target="_blank" style="color:" > 河南老君山现雾凇景观 玉树琼枝美如画 </a></li>  
+
+   
+</ul>
+
+		
+<div class="ad4" id="adposter_6116"> 
+			<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3038654',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="http://dup.baidustatic.com/js/os.js"></script>
+
+			</div> 
+		
+					<div class="chartPH">
+				<h1 class="clearfix">
+					<span>热点</span>
+					<i >视频</i>
+					<i>图片</i>
+					<i class="on" >文章</i>
+				</h1>
+				<ul id='hot'>
+										<li class="hover"><span class="ord"><i>1</i></span><span class="city"><a  target="_blank" href="http://news.weather.com.cn/2016/12/2630974.shtml">冷空气将袭中东部 雾霾消散气温大跳...</a></span></li><li class="hover"><span class="ord"><i>2</i></span><span class="city"><a  target="_blank" href="http://news.weather.com.cn/2016/11/2619702.shtml">这个冬天格外冷？ 专家预测今冬我国...</a></span></li><li class="hover"><span class="ord"><i>3</i></span><span class="city"><a  target="_blank" href="http://news.weather.com.cn/2016/12/2629946.shtml">华北黄淮雾霾周末加重 四川等地大雾...</a></span></li><li class=""><span class="ord"><i>4</i></span><span class="city"><a  target="_blank" href="http://news.weather.com.cn/2016/12/2629840.shtml">明天起京津冀等再陷“霾伏”11日夜...</a></span></li><li class=""><span class="ord"><i>5</i></span><span class="city"><a  target="_blank" href="http://news.weather.com.cn/2016/12/2630223.shtml">重庆连续6天遭遇大雾 引发多起追尾...</a></span></li>
+
+									</ul>
+				<ul id='pic' style="display:none;">
+										<li class="hover"><span class="ord"><i>1</i></span><span class="city"><a  target="_blank" href="http://p.weather.com.cn/2016/12/2629574.shtml">世界上最梦幻的二十个地方</a></span></li><li class="hover"><span class="ord"><i>2</i></span><span class="city"><a  target="_blank" href="http://p.weather.com.cn/2016/12/2630529.shtml">强悍！西伯利亚气温降至-53℃ 学...</a></span></li><li class="hover"><span class="ord"><i>3</i></span><span class="city"><a  target="_blank" href="http://p.weather.com.cn/2016/12/2631139.shtml">13张迷人的照片让你重新审视自己在...</a></span></li><li class=""><span class="ord"><i>4</i></span><span class="city"><a  target="_blank" href="http://p.weather.com.cn/2016/12/2627803.shtml">这18张照片证明了全球气候变暖</a></span></li><li class=""><span class="ord"><i>5</i></span><span class="city"><a  target="_blank" href="http://p.weather.com.cn/2016/12/2629590.shtml">美国国家地理评选出的年度最佳照片</a></span></li>
+
+									</ul>
+				<ul id="video">
+										<li class="hover"><span class="ord"><i>1</i></span><span class="city"><a  target="_blank" href="http://www.weather.com.cn/video/tqyb/05/508815.shtml">新闻联播天气预报</a></span></li><li class="hover"><span class="ord"><i>2</i></span><span class="city"><a  target="_blank" href="http://www.weather.com.cn/video/2016/12/2628946.shtml">冷空气最远能吹到哪？</a></span></li><li class="hover"><span class="ord"><i>3</i></span><span class="city"><a  target="_blank" href="http://www.weather.com.cn/video/2016/12/2631256.shtml">美中西部普降大雪 交通受影响</a></span></li><li class=""><span class="ord"><i>4</i></span><span class="city"><a  target="_blank" href="http://www.weather.com.cn/video/2016/03/lssj/2491187.shtml">百年最强厄尔尼诺将持续至今年5月</a></span></li><li class=""><span class="ord"><i>5</i></span><span class="city"><a  target="_blank" href="http://www.weather.com.cn/video/2016/12/2629909.shtml">为啥东北女人爱穿貂?</a></span></li>
+
+									</ul>
+			</div>
+			
+		<div class="ad4" id="adposter_6117"> 
+			<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3038657',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="http://dup.baidustatic.com/js/os.js"></script>
+
+			</div> 
+		
+					<div class="pic travel">
+				<h1> <span><a href="http://www.weather.com.cn/life/" target="_blank">&gt;&gt;</a></span> <a target="_blank" href="http://www.weather.com.cn/life/">生活旅游</a></h1>
+				<div class="scrollPic">
+					<ul class="bigImg clearfix">
+						
+   <li><a href="http://www.weather.com.cn/life/2016/12/2626847.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/life/2016/12/01/0114585595F6A2855700A3346013C87BFA936630.jpg" alt="冷天长跑不宜“张大嘴”" width="300" height="227"  ></a></li>
+   
+   <li><a href="http://www.weather.com.cn/life/2016/12/2626845.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/life/2016/12/01/01150859617E0174128D85517FBB382A5358634A.jpg" alt="冬季养生应早睡晚起" width="300" height="227"  ></a></li>
+   
+   <li><a href="http://www.weather.com.cn/life/2016/12/2626844.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/life/2016/12/01/01151641497E67183E6B4743A546BB80410CB98B.jpg" alt="冬季冷水浴应如何操作" width="300" height="227"  ></a></li>
+   
+
+						
+   <li><a href="http://www.weather.com.cn/life/2016/07/2547755.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/life/2016/07/04/04100328FA12175C657B07AE35839F709DBD934D.jpg" alt="那些与海相伴的日子里 你还好吗  " width="300" height="227"></a></li>
+   
+   <li><a href="http://www.weather.com.cn/life/2016/06/2540029.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/life/2016/07/04/041007290B2F5A3D889D987A08628FBE778B7058.jpg" alt="在属于骑行的季节里出发" width="300" height="227"></a></li>
+   
+   <li><a href="http://www.weather.com.cn/life/2016/05/2522201.shtml" target="_blank"><img src="http://i.weather.com.cn/images/cn/life/2016/05/25/25101117A487BE17A558F9597C5A15969036D84E.jpg" alt="今年夏天去哪里看海？" width="300" height="227"></a></li>
+   
+
+					</ul>
+					
+					<ul class="botIcon clearfix">
+					</ul>
+					<p></p>
+					<div class="bottomBg"></div>
+					<div class="rollLeft"></div>
+					<div class="rollRight"></div>
+				</div>
+			</div>
+			<ul class="list">
+				
+   <li><a href="http://www.weather.com.cn/life/2016/05/2521487.shtml" target="_blank">巴黎博物馆“奇妙夜”</a></li>
+   
+   <li><a href="http://www.weather.com.cn/life/2016/04/lyxx/2505382.shtml" target="_blank">走进27度的秘密 遇见质朴和自由</a></li>
+   
+
+				
+
+<li><a href="http://www.weather.com.cn/life/2016/12/2626843.shtml" target="_blank">冬季儿童咳嗽治疗分类型</a></li>
+
+
+<li><a href="http://www.weather.com.cn/life/2016/12/2625419.shtml" target="_blank">一周吃鱼3次 预防老年痴呆</a></li>
+
+			</ul>
+				
+		
+							<div class="hotSpot">
+      <h3><b></b>热门景点<i></i></h3>
+<h4 class="title"><span class="name">景区</span><span class="weather">天气</span><span class="wd">气温</span><span class="zs">旅游指数</span></h4>
+      <ul class="on">
+            <li><span class="name"><a href="http://www.weather.com.cn/weather1d/101310201.shtml" target="_blank">三亚</a></span><span class="weather"><a title="多云">多云</a></span><span class="wd">29℃/24℃</span><span class="zs">适宜</span></li><li><span class="name"><a href="http://www.weather.com.cn/weather1d/101271906.shtml" target="_blank">九寨沟</a></span><span class="weather"><a title="晴转多云">晴转多云</a></span><span class="wd">11℃/3℃</span><span class="zs">适宜</span></li><li><span class="name"><a href="http://www.weather.com.cn/weather1d/101290201.shtml" target="_blank">大理</a></span><span class="weather"><a title="晴">晴</a></span><span class="wd">18℃/2℃</span><span class="zs">适宜</span></li><li><span class="name"><a href="http://www.weather.com.cn/weather1d/101251101.shtml" target="_blank">张家界</a></span><span class="weather"><a title="阴">阴</a></span><span class="wd">12℃/6℃</span><span class="zs">适宜</span></li><li><span class="name"><a href="http://www.weather.com.cn/weather1d/101300501.shtml" target="_blank">桂林</a></span><span class="weather"><a title="阴转多云">阴转多云</a></span><span class="wd">16℃/10℃</span><span class="zs">适宜</span></li><li><span class="name"><a href="http://www.weather.com.cn/weather1d/101120201.shtml" target="_blank">青岛</a></span><span class="weather"><a title="阴转多云">阴转多云</a></span><span class="wd">3℃/-2℃</span><span class="zs">较不宜</span></li>
+   </ul>
+    </div>
+
+			      <div class="warp_sel">
+    <span id="city">
+      <div class="form1">
+        <div>
+
+          <p id="txt1" class="txt1" value="北京"  data-id="10101">北京</p>
+           </div>
+        <!--列表1-->
+        <div class="Menu list3_menu" id="List1" style="width:68px;">
+          <ul>
+              <li><a data-id="10101">北京</a></li>
+              <li><a data-id="10102">上海</a></li>
+              <li><a data-id="10103">天津</a></li>
+              <li><a data-id="10104">重庆</a></li>
+              <li><a data-id="10105">黑龙江</a></li>
+              <li><a data-id="10106">吉林</a></li>
+              <li><a data-id="10107">辽宁</a></li>
+              <li><a data-id="10108">内蒙古</a></li>
+              <li><a data-id="10109">河北</a></li>
+              <li><a data-id="10110">山西</a></li>
+              <li><a data-id="10111">陕西</a></li>
+              <li><a data-id="10112">山东</a></li>
+              <li><a data-id="10113">新疆</a></li>
+              <li><a data-id="10114">西藏</a></li>
+              <li><a data-id="10115">青海</a></li>
+              <li><a data-id="10116">甘肃</a></li>
+              <li><a data-id="10117">宁夏</a></li>
+              <li><a data-id="10118">河南</a></li>
+              <li><a data-id="10119">江苏</a></li>
+              <li><a data-id="10120">湖北</a></li>
+              <li><a data-id="10121">浙江</a></li>
+              <li><a data-id="10122">安徽</a></li>
+              <li><a data-id="10123">福建</a></li>
+              <li><a data-id="10124">江西</a></li>
+              <li><a data-id="10125">湖南</a></li>
+              <li><a data-id="10126">贵州</a></li>
+              <li><a data-id="10127">四川</a></li>
+              <li><a data-id="10128">广东</a></li>
+              <li><a data-id="10129">云南</a></li>
+              <li><a data-id="10130">广西</a></li>
+              <li><a data-id="10131">海南</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="form1" style="width:62px;">
+        <div>
+          <p id="txt2" class="txt2" name="txt2" data-id="">级别</p>
+         </div>
+         <div class="Menu" id="List2" >
+          <ul>
+            <li><a data-id="5A">5A</a></li>
+            <li><a data-id="4A">4A</a></li>
+            <li><a data-id="3A">3A</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="form1" style="width:114px;">
+        <div >
+          <p id="txt3" class="txt3" name="txt3" ><span class="jqu">景区</span></p>
+        </div>
+        <!--列表1-->
+        <div class="Menu list3_menu" id="List3">
+          <ul>
+            
+          </ul>
+        </div>
+      </div>
+      </span>
+      <button id="viewSearch"></button>
+    </div>
+
+		
+					<div class="weaPro">
+			<h1>气象产品</h1>
+			<div class="cen clearfix">
+			  <div class="l"><a href="http://products.weather.com.cn/product/radar/index/procode/JC_RADAR_AZ9210_JB" target="_blank">
+				<img src="http://i.tq121.com.cn/i/weather2014/7d/product.jpg" width='138' height="107" alt=""></a>
+				<p><a href="http://products.weather.com.cn/product/radar/index/procode/JC_RADAR_AZ9210_JB" target="_blank">上海基本反射率单站雷达图</a></p>
+			  </div>
+			  <ul class="r">
+				<li><a target="_blank" href="http://www.weather.com.cn/satellite/">中国大陆区域彩色云图</a></li>
+				<li><a target="_blank" href="http://www.weather.com.cn/index/zxqxgg1/wlstyb.shtml">未来三天天气趋势预报</a></li>
+				<li><a target="_blank" href="http://products.weather.com.cn/product/Index/index/procode/JC_JSL_02405">全国降水量实况</a></li>
+				<li><a target="_blank" href="http://products.weather.com.cn/product/Index/index/procode/YB_WD_ZG24">全国最高气温分布</a></li>
+				<li><a target="_blank" href="http://products.weather.com.cn/product/Index/index/procode/YB_WD_ZD24">全国最低气温分布</a></li>
+			  </ul>
+			</div>
+						
+
+
+						<div class="weaSer">
+				<h1>气象服务</h1>
+				<div>
+					<h2>气象服务热线</h2>
+					<p>拨打400-6000-121进行气象服务资讯、建议、合作与投诉</p>
+				</div>
+				<div>
+					<h2>天气预报电话查询</h2>
+					<p>拨打12121或96121进行天气预报查询</p>
+				</div>
+				<div>
+					<h2>手机查询</h2>
+					<p>随时随地通过手机登录中国天气WAP版查看各地天气资讯</p>
+				</div>
+			</div>
+			
+		</div>
+		</div>
+</div>
+<div id="ab_yjjy">
+	<a href="http://www.weather.com.cn/index/feedback_2015_40days.shtml" target="_blank">
+		<img border="0" src="http://i.tq121.com.cn/i/weather2014/city/jianyi.png" usemap="#Map">
+	</a>
+</div>
+<script>W.use(['j/weather2015/c_common40.js']);</script>
+
+
+<!-- START WRating v1.0 -->
+	<script type="text/javascript" src="http://m.weather.com.cn/a1.js"></script>
+	<script type="text/javascript">
+	var vjAcc="860010-2099040100";
+	var wrUrl=" http://c.wrating.com/";
+	var splitUrl = document.location.toString().split("?");
+	if(splitUrl.length == 2){
+		if(splitUrl[1].indexOf('from') > -1){
+			var search_key = document.location.search.toString().replace("?from=",'');
+			if(search_key != 'baidu' && search_key != 'coop' && search_key != 'hao123'){
+				search_key = 'weather';
+			}
+			vjSetReferrer("http://flash."+search_key+".com.cn/come/from/flash.html");
+		}
+	}
+	vjTrack("");
+	</script>
+	<noscript><img src="http://c.wrating.com/a.gif?a=&c=860010-2099040100" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 --> 
+
+<script>W.use('j/weather2015/publicHead.js');</script>
+<div class="footer">
+  <div class="block">
+    <div class="Lcontent" style="width:558px;">
+      <dl style="width:280px; margin-right:22px;">
+        <dt>
+          <h3>网站服务</h3>
+        </dt>
+        <dd>
+          <p><a href="http://www.weather.com.cn/wzfw/gywm/">关于我们</a><a href="http://www.weather.com.cn/wzfw/lxwm/">联系我们</a><a href="http://www.weather.com.cn/wzfw/sybz/">帮助</a><a href="http://www.weather.com.cn/wzfw/ryzp/">人员招聘</a></p>
+          <p><a href="http://www.weather.com.cn/wzfw/kfzx/">客服中心</a><a href="http://www.weather.com.cn/wzfw/bqsm/">版权声明</a><a href="http://www.weather.com.cn/wzfw/wzls/">律师</a><a href="http://www.weather.com.cn/wzfw/wzdt/">网站地图</a></p>
+        </dd>
+      </dl>
+      <dl style="width:150px;">
+        <dt>
+          <h3>营销中心</h3>
+        </dt>
+        <dd>
+          <p><a href="http://marketing.weather.com.cn/wzhz/index.shtml">商务合作</a><a href="http://ad.weather.com.cn/index.shtml">广告服务</a></p>
+        </dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+    <div class="friendLink" style="width:418px;margin-right:15px;">
+      <h3>相关链接</h3>
+      <p><a href="http://www.cma.gov.cn/" target="_blank">中国气象局</a><a href="http://pmsc.cma.gov.cn/" target="_blank">公共气象服务中心</a><a href="http://www.chinamsa.org" target="_blank">中国气象服务协会</a> </p>
+      <p><a href="http://www.weathertv.cn/" target="_blank">中国气象频道</a><a href="http://www.tourweather.com.cn/" target="_blank">中国旅游天气网</a><a href="http://www.xn121.com/" target="_blank">中国兴农网</a><a target="_blank" href="http://cwera.weather.com.cn/">风能太阳能资源中心</a></p>
+      
+    </div>
+    <div class="serviceinfo">
+<p><span>客服邮箱：<a href="mailto:service@weather.com.cn">service@weather.com.cn</a></span><span style="width:220px;">广告服务：<b>010-58991910</b></span><span><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP证010385号</a>　京公网安备11041400134号</span></p>
+      <p><span>客服热线：<b><a href="http://www.weather.com.cn/wzfw/kfzx/index.shtml" target="_blank">400-6000-121</a></b></span><span style="width:220px;">  商务合作：<b>010-58991938</b></span><span>增值电信业务经营许可证B2-20050053</span></p>
+
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="aboutUs"> Copyright&copy;<a href="http://pmsc.cma.gov.cn/" target="_blank">中国气象局公共气象服务中心</a> All Rights Reserved (2008-2016) 版权所有 复制必究 郑重声明：中国天气网版权所有，未经书面授权禁止使用 </div>
+</div>
+
+<!--<div class="provinceLinks">
+  <div class="midBlock" style="margin:0 auto; width:1000px;">
+  <dl>
+      <dt><a target="_blank" href="http://www.weather.com.cn/textFC/hb.shtml">华北地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://bj.weather.com.cn">北京</a><a target="_blank" href="http://tj.weather.com.cn">天津</a><a target="_blank" href="http://hebei.weather.com.cn">河北</a></p>
+        <p><a target="_blank" href="http://shanxi.weather.com.cn">山西</a><a target="_blank" href="http://nmg.weather.com.cn">内蒙古</a></p>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a target="_blank" href="http://www.weather.com.cn/textFC/hd.shtml">华东地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://sh.weather.com.cn">上海</a><a target="_blank" href="http://js.weather.com.cn">江苏</a><a target="_blank" href="http://zj.weather.com.cn">浙江</a></p>
+        <p><a target="_blank" href="http://ah.weather.com.cn">安徽</a><a target="_blank" href="http://fj.weather.com.cn">福建</a><a target="_blank" href="http://sd.weather.com.cn">山东</a></p>
+      </dd>
+    </dl>
+    
+    <dl>
+      <dt><a target="_blank" href="http://www.weather.com.cn/textFC/hz.shtml">华中地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://hubei.weather.com.cn">湖北</a><a target="_blank" href="http://hunan.weather.com.cn">湖南</a></p>
+        <p><a target="_blank" href="http://henan.weather.com.cn">河南</a><a target="_blank" href="http://jx.weather.com.cn">江西</a></p>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a target="_blank" href="http://www.weather.com.cn/textFC/hn.shtml">华南地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://gd.weather.com.cn">广东</a><a target="_blank" href="http://gx.weather.com.cn">广西</a></p>
+        <p><a target="_blank" href="http://hainan.weather.com.cn">海南</a></p>
+      </dd>
+    </dl>
+    <div class="line"></div>
+    <dl>
+      <dt><a target="_blank" href="http://www.weather.com.cn/textFC/xb.shtml">西北地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://shaanxi.weather.com.cn">陕西</a><a target="_blank" href="http://gs.weather.com.cn">甘肃</a><a target="_blank" href="http://qh.weather.com.cn">青海</a></p>
+        <p><a target="_blank" href="http://nx.weather.com.cn">宁夏</a><a target="_blank" href="http://xj.weather.com.cn">新疆</a></p>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a target="_blank" href="http://www.weather.com.cn/textFC/xn.shtml">西南地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://cq.weather.com.cn">重庆</a><a target="_blank" href="http://sc.weather.com.cn">四川</a><a target="_blank" href="http://yn.weather.com.cn">云南</a></p>
+        <p><a target="_blank" href="http://gz.weather.com.cn">贵州</a><a target="_blank" href="http://xz.weather.com.cn">西藏</a></p>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a target="_blank" href="http://www.weather.com.cn/textFC/db.shtml">东北地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://ln.weather.com.cn">辽宁</a><a target="_blank" href="http://jl.weather.com.cn">吉林</a></p>
+        <p><a target="_blank" href="http://hlj.weather.com.cn">黑龙江</a></p>
+      </dd>
+    </dl>
+    <dl>
+      <dt class="last"><a target="_blank" href="http://www.weather.com.cn/textFC/gat.shtml">港澳台地区</a></dt>
+      <dd>
+        <p><a target="_blank" href="http://www.weather.com.cn/html/province/xianggang.shtml">香港</a><a target="_blank" href="http://mo.weather.com.cn">澳门</a></p>
+        <p><a target="_blank" href="http://www.weather.com.cn/html/province/taiwan.shtml">台湾</a></p>
+      </dd>
+    </dl>
+  </div>
+
+
+</div>-->
+<div style="display:none;">
+<script src="http://s11.cnzz.com/z_stat.php?id=1257873453&web_id=1257873453" language="JavaScript"></script>
+</div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F080dabacb001ad3dc8b9b9049b36d43b' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+<!-- START WRating v1.0 -->
+<script type="text/javascript" src="http://c.wrating.com/a1.js">
+</script>
+<script type="text/javascript">
+var vjAcc="860010-1905010101";
+var wrUrl="http://c.wrating.com/";
+vjTrack("");
+</script>
+<noscript><img src="http://c.wrating.com/a.gif?a=&c=860010-1905010101" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+
+</body>
+</html>

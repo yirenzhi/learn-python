@@ -1,0 +1,166 @@
+// proj.linux/main.cpp  linux 平台手动指定画面大小
+	CCEGLView*eglView=CCEGLView::sharedOpenGLView();
+	eglView->setFrameSize(720,480);
+	// proj.android/jni/hellocpp/main.cpp android 平台由 jni 调用传入设备分辨率参数
+	voidJava_org_cocos2dx_lib_Cocos2dxRenderer_nativeInit(JNIEnv*env,jobjectthiz,jintw,jinth)
+{
+	if(!CCDirector::sharedDirector()->getOpenGLView())
+{
+	CCEGLView*view=CCEGLView::sharedOpenGLView();
+	view->setFrameSize(w,h);
+	AppDelegate*pAppDelegate=newAppDelegate();
+	CCApplication::sharedApplication()->run();
+	}
+else
+{
+	// other
+	...}
+}
+
+
+
+
+
+CCEGLView::sharedOpenGLView()->setDesignResolutionSize(720,480,kResolutionShowAll);
+	// 或者
+	CCEGLView::sharedOpenGLView()->setDesignResolutionSize(720,480,kResolutionExactFit);
+	
+
+
+
+
+CCSizewinSize=CCDirector::sharedDirector()->getWinSize();
+	
+
+
+
+
+// 获得 winSize
+	CCSizewinSize=CCDirector::sharedDirector()->getWinSize();
+	// 查看其 getWinSize(); 方法实现
+		[cocos2dx-path]/cocos2dx/CCDirector.cppCCSizeCCDirector::getWinSize(void)
+{
+	returnm_obWinSizeInPoints;
+	}
+// 而 m_obWinSizeInPoints 是何时被赋值的
+	[cocos2dx-path]/cocos2dx/platform/CCEGLViewProtocol.cppvoidCCEGLViewProtocol::setDesignResolutionSize(floatwidth,floatheight,ResolutionPolicyresolutionPolicy)
+{
+	......m_obDesignResolutionSize.setSize(width,height);
+	......CCDirector::sharedDirector()->m_obWinSizeInPoints=getDesignResolutionSize();
+	}
+constCCSize&CCEGLViewProtocol::getDesignResolutionSize()const
+{
+	returnm_obDesignResolutionSize;
+	}
+
+
+
+
+
+// 组[1] :
+	FrameSize:width=720,height=420WinSize:width=720,height=480VisibleSize:width=720,height=420VisibleOrigin:x=0,y=30// 组[2] :相比 组 [1] FrameSize 不变 VisibleSize 和 VisibleOrigin 随着 WinSize 的变小而变小
+	FrameSize:width=720,height=420WinSize:width=480,height=320VisibleSize:width=480,height=280VisibleOrigin:x=0,y=20// 组[3] : 相比组 [1] WinSize 不变，VisibleSize 随着 FrameSize 的比例改变而改变
+	FrameSize:width=720,height=540WinSize:width=720,height=480VisibleSize:width=640,height=480VisibleOrigin:x=40,y=0// WinSize VisibleSize VisibleOrigin 与都设计的分辨率相关，满足如下关系
+	WinSize.width=(VisibleOrigin.x*2)+VisibleSize.widthWinSize.height=(VisibleOrigin.y*2)+VisibleSize.height
+
+
+
+
+CCSizesize=CCDirector::sharedDirector()->getWinSize();
+	CCPointcenter=ccp(size.width/2,size.height/2);
+	// 大小 600x500 为了 NoBorder 看到效果，使用稍大的背景图
+	CCSprite*pb=CCSprite::create("Back.jpg");
+	pb->setPosition(center);
+	this->addChild(pb,0);
+	// 480x320 此图为使用于设计分辨率 LsSize 的图片
+	CCSprite*pSprite=CCSprite::create("HelloWorld.png");
+	pSprite->setPosition(center);
+	this->addChild(pSprite,0);
+	// 37x37 在 480x320 画面的四个拐角处，添加参照
+	CCSprite*p1=CCSprite::create("Peas.png");
+	p1->setPosition(ccpAdd(center,ccp(-240,-160)));
+	this->addChild(p1);
+	CCSprite*p2=CCSprite::create("Peas.png");
+	p2->setPosition(ccpAdd(center,ccp(240,160)));
+	this->addChild(p2);
+	CCSprite*p3=CCSprite::create("Peas.png");
+	p3->setPosition(ccpAdd(center,ccp(-240,160)));
+	this->addChild(p3);
+	CCSprite*p4=CCSprite::create("Peas.png");
+	p4->setPosition(ccpAdd(center,ccp(240,-160)));
+	this->addChild(p4);
+	
+
+
+
+
+CCDirector*pDirector=CCDirector::sharedDirector();
+	pDirector->setContentScaleFactor(CCEGLView::sharedOpenGLView()->getScaleY());
+	
+
+
+
+
+CCSizeframeSize=CCEGLView::sharedOpenGLView()->getFrameSize();
+	// 设置 LsSize 固定值
+	CCSizelsSize=CCSizeMake(480,320);
+	floatscaleX=(float)frameSize.width/lsSize.width;
+	floatscaleY=(float)frameSize.height/lsSize.height;
+	// 定义 scale 变量
+	floatscale=0.0f;
+	// MAX(scaleX, scaleY);
+		if(scaleX>scaleY)
+{
+	// 如果是 X 方向偏大，那么 scaleX 需要除以一个放大系数，放大系数可以由枞方向获取，
+	// 因为此时 FrameSize 和 LsSize 的上下边是重叠的
+	scale=scaleX/(frameSize.height/(float)lsSize.height);
+	}
+else
+{
+	scale=scaleY/(frameSize.width/(float)lsSize.width);
+	}
+CCLog("x: %f; y: %f; scale: %f"
+	,scaleX,scaleY,scale);
+	// 根据 LsSize 和屏幕宽高比动态设定 WinSize
+	CCEGLView::sharedOpenGLView()->setDesignResolutionSize(lsSize.width*scale,lsSize.height*scale,kResolutionNoBorder);
+	
+
+
+
+
+// 这里先简单实现思路
+	CCScene*HelloWorld::scene()
+{
+	CCScene*scene=CCScene::create();
+	// 创建背景层
+	CCLayer*b=CCLayer::create();
+	scene->addChild(b);
+	// 添加背景图片和设置位置，可以使用其它装饰，或者小图片屏幕都行
+	CCSizesize=CCDirector::sharedDirector()->getWinSize();
+	CCPointcenter=ccp(size.width/2,size.height/2);
+	CCSprite*pb=CCSprite::create("Back.jpg");
+	pb->setPosition(center);
+	b->addChild(pb,0);
+	// 创建 LsLayer 层
+	HelloWorld*lsLayer=HelloWorld::create();
+	scene->addChild(lsLayer);
+	returnscene;
+	}
+// 在 HelloWorld 中重写 visit() 函数 设定显示区域
+	voidHelloWorld::visit()
+{
+	glEnable(GL_SCISSOR_TEST);
+	// 开启显示指定区域
+	// 在这里只写上固定值，在特性环境下，以便快速看效果，实际的值，需要根据实际情况算得
+	glScissor(20,0,480,320);
+	// 只显示当前窗口的区域
+	CCLayer::visit();
+	// 调用下面的方法
+	glDisable(GL_SCISSOR_TEST);
+	// 禁用
+	}
+
+
+
+
+
