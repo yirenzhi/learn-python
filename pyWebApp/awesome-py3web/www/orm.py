@@ -2,7 +2,8 @@
 
 import asyncio, logging, aiomysql
 
-
+def log(sql, args=()):
+    logging.info('SQL: %s' % sql)
 '''
 创建连接池
 
@@ -11,11 +12,11 @@ import asyncio, logging, aiomysql
 连接池由全局变量__pool存储，缺省情况下将编码设置为utf8，自动提交事务：
 '''
 
-@asyncio.coroutine
-def create_pool(loop,**kw):
+
+async def create_pool(loop,**kw):
     logging.info('create database connection pool...')
     global __pool
-    __pool = yield from aiomysql.create_pool(
+    __pool = await aiomysql.create_pool(
         host = kw.get('host','localhost'),
         port = kw.get('',3306),
         user = kw['user'],
@@ -25,14 +26,14 @@ def create_pool(loop,**kw):
         autocommit = kw.get('maxsize',10),
         minsize = kw.get('minsize',1),
         loop = loop
-    
     )
-    
+
 '''
 用于执行select语句
 '''
+'''
 @asyncio.coroutine
-def select(sql.args.size=None):
+def select(sql, args, size=None):
     log(sql,args)
     global __pool
     with(yield from __pool) as conn:
@@ -45,10 +46,25 @@ def select(sql.args.size=None):
         yield from cur.close()
         logging.info('rows returned:%s' % len(rs))
         return rs
-    
+'''
+# select语句
+async def select(sql, args, size=None):
+    log(sql, args)
+    global __pool
+    async with __pool.get() as conn:
+        async with conn.cursor(aiomysql.DictCursor) as cur:
+            await cur.execute(sql.replace('?', '%s'), args or ())
+            if size:
+                rs = await cur.fetchmany(size)
+            else:
+                rs = await cur.fetchall()
+        logging.info('rows returned: %s' % len(rs))
+        conn.close;
+        return rs
 '''
 通用的execute()用来执行insert,update,delete
-'''   
+'''
+'''
 @asyncio.coroutine
 def execute(sql, args):
     log(sql)
@@ -61,8 +77,32 @@ def execute(sql, args):
         except BaseException as e:
             raise
         return affected
-    
-    
+'''
+# insert,update,deleta语句
+async def execute(sql, args, autocommit=True):
+    log(sql)
+    async with __pool.get() as conn:
+        if not autocommit:
+            await conn.begin()
+        try:
+            async with conn.cursor(aiomysql.DictCursor) as cur:
+                await cur.execute(sql.replace('?', '%s'), args)
+                affected = cur.rowcount
+            if not autocommit:
+                await conn.commit()
+        except BaseException as e:
+            if not autocommit:
+                await conn.rollback()
+            raise
+        finally:
+            conn.close()
+        return affected
+def create_args_string(num):
+    l = []
+    for n in range(num):
+        l.append('?')
+    return ', '.join(l)
+
 class ModelMetaclass(type):
     def __new__(cls, name, bases, attrs):
         if name=='Model':
@@ -75,7 +115,7 @@ class ModelMetaclass(type):
         fields = []
         primarykey = None
 
-        for k, v in attrs.item():
+        for k, v in attrs.items():
             if isinstance(v, Field):
                 logging.info('  found mapping: %s ==> %s' % (k,v))
                 mappings[k] = v
@@ -85,7 +125,7 @@ class ModelMetaclass(type):
                         raise RuntimeError('Duplicate primary key for field: %s' % k)
                     primarykey = k
                 else:
-                    field.append(k)
+                    fields.append(k)
 
         if not primarykey:
             raise RuntimeError('Primary key not found.')
@@ -95,7 +135,7 @@ class ModelMetaclass(type):
         escaped_fields = list(map(lambda f: '`%s`' % f, fields))
         attrs['__mappings__'] = mappings #保存属性和列的映射关系
         attrs['__table__'] = tableName
-        attrs['__primary_key__'] = primaryKey #主键属性名
+        attrs['__primary_key__'] = primarykey #主键属性名
         attrs['__fields__'] = fields #出主键外的属性名
         #构造默认的SELECT, INSERT, UPDATE, DELETE语句：
         attrs['__select__'] = 'select `%s`, %s from `%s`' % (primarykey, ','.join(escaped_fields), tableName)
@@ -104,9 +144,6 @@ class ModelMetaclass(type):
         attrs['__delete__'] = 'delete from `%s` where `%s`=?' % (tableName, primarykey)
         return type.__new__(cls, name, bases, attrs)
 
-
-
-        
 
 class Model(dict, metaclass = ModelMetaclass):
 
@@ -135,20 +172,51 @@ class Model(dict, metaclass = ModelMetaclass):
                 setattr(self,key, value)
         return value
 
+    # 类方法的第一个参数是cls,而实例方法的第一个参数是self
+    @classmethod
+    async def findAll(cls, where=None, args=None, **kw):
+        ' find objects by where clause. '
+        sql = [cls.__select__]
+        if where:
+            sql.append('where')
+            sql.append(where)
+        if args is None:
+            args = []
+        orderBy = kw.get('orderBy', None)
+        if orderBy:
+            sql.append('order by')
+            sql.append(orderBy)
+        limit = kw.get('limit', None)
+        if limit is not None:
+            sql.append('limit')
+            if isinstance(limit, int):
+                sql.append('?')
+                args.append(limit)
+            elif isinstance(limit, tuple) and len(limit) == 2:
+                sql.append('?', '?')
+                # extend 接收一个iterable参数
+                args.extend(limit)
+            else:
+                raise ValueError('Invalid limit value: %s' % str(limit))
+        #调用select函数,返回值是从数据库里查找到的数据结果
+        rs = await select(' '.join(sql), args)
+        return [cls(**r) for r in rs]
     @classmethod
     async def find(cls, pk):
         'find object by primary key.'
-        rs = yield from select('%s where `%s`=?' % (cls.__select__, cls.__primary_key__),[pk], 1)
+        #rs = yield from select('%s where `%s`=?' % (cls.__select__, cls.__primary_key__), [pk], 1)
+        rs = await select('%s where `%s`=?' % (cls.__select__, cls.__primary_key__), [pk], 1)
         if len(rs) == 0:
             return None
         return cls(**rs[0])
 
     async def save(self):
-        args = lsit(map(self.getValueOrDefault, self.__fields__))
+        # 获取所有value
+        args = list(map(self.getValueOrDefault, self.__fields__))
         args.append(self.getValueOrDefault(self.__primary_key__))
-        rows = yield from excute(self.__insert__, args)
+        rows = await execute(self.__insert__, args)
         if rows != 1:
-            logging.warn("failed to insert record: affected rows: %s" % rows)
+            logging.warning('failed to insert record: affected rows: %s' % rows)
 
 class Field(object):
     def __init__(self, name, column_type, primary_key, default):
@@ -158,9 +226,32 @@ class Field(object):
         self.default = default
 
     def __str__(self):
-        return '<%s, %s:%s>' % (self.__class__.__name__, slef.column_type, self.name)
+        return '<%s, %s:%s>' % (self.__class__.__name__, self.column_type, self.name)
 
 
 class StringField(Field):
     def __init__(self, name=None, primary_key=False, default=None, ddl='varchar(100)'):
         super().__init__(name, ddl, primary_key, default)
+##
+class BooleanField(Field):
+
+    def __init__(self, name=None, default=False):
+        super().__init__(name, 'boolean', False, default)
+
+
+class IntegerField(Field):
+
+    def __init__(self, name=None, primary_key=False, default=0):
+        super().__init__(name, 'bigint', primary_key, default)
+
+
+class FloatField(Field):
+
+    def __init__(self, name=None, primary_key=False, default=0.0):
+        super().__init__(name, 'real', primary_key, default)
+
+
+class TextField(Field):
+
+    def __init__(self, name=None, default=None):
+        super().__init__(name, 'text', False, default)
