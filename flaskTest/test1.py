@@ -93,7 +93,7 @@ def hellohtml(name=None):
 def upload_file():
     if request.method == 'POST':
         f = request.files['the_file']
-        f.sava('/var/www/uploads/uploaded_file.txt')
+        f.sava('./uploaded_file.txt')
 
 # 会话
 # 除请求对象之外，还有一个 session 对象。它允许你在不同请求间存储特定用户的信息。它是在 Cookies 的基础上实现的，
@@ -127,7 +127,9 @@ def logout():
 
 app.secret_key = '\xcd\xbe\x1c`\xf1K\xd9\x17\xf7q\x93pcg\x9f$\xf2#K\x01\x8a\xb2\r\xfa'
 
-
+@app.errorhandler(404)
+def not_found(error):
+    return render_template('error.html'), 404
 
 
 
