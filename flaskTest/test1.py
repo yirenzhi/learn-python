@@ -1,12 +1,13 @@
 #-*-coding:utf-8-*-
 
-from flask import Flask ,render_template ,request ,session ,redirect ,url_for ,escape
+from flask import Flask, render_template, request, session, redirect, url_for, escape
 
 app = Flask(__name__)
 
 # @app.route('/')
 # def hello_world():
 #     return 'Hello World!'
+
 
 @app.route('/hello')
 def hello():
@@ -15,9 +16,12 @@ def hello():
 # 变量规则
 # 要给 URL 添加变量部分，你可以把这些特殊的字段标记为 <variable_name> ，
 # 这个部分将会作为命名参数传递到你的函数。规则可以用 <converter:variable_name> 指定一个可选的转换器。这里有一些不错的例子:
+
+
 @app.route('/user/<username>')
 def show_user_profile(username):
     return 'Hello %s' % username
+
 
 @app.route('/post/<int:postid>')
 def show_postid(postid):
@@ -71,10 +75,11 @@ def login():
 #
 # 你可以使用 render_template() 方法来渲染模板。你需要做的一切就是将模板名和你想作为关键字的参数传入模板的变量。这里有一个展示如何渲染模板的简例:
 
+
 @app.route('/hellohtml/')
 @app.route('/hellohtml/<name>')
 def hellohtml(name=None):
-    return render_template('hello.html',name=name)
+    return render_template('hello.html', name=name)
 
 # 当前请求的 HTTP 方法可通过 method 属性来访问。通过:attr:~flask.request.form
 # 属性来访问表单数据（ POST 或 PUT 请求提交的数据）。这里有一个用到上面提到的那两个属性的完整实例:
@@ -89,7 +94,8 @@ def hellohtml(name=None):
 #
 #     return render_template('login.html',error=error)
 
-@app.route('/upload',methods=['GET','POST'])
+
+@app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         f = request.files['the_file']
@@ -108,7 +114,8 @@ def index():
         return 'Logged in as %s' % escape(session['username'])
     return 'You are not logged in'
 
-@app.route('/login',methods=['GET','POST'])
+
+@app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         session['username'] = request.form['username']
@@ -120,22 +127,14 @@ def login():
         </form>
     '''
 
+
 @app.route('/logout')
 def logout():
-    session.pop('username',None)
+    session.pop('username', None)
     return redirect(url_for('index'))
 
+
 app.secret_key = '\xcd\xbe\x1c`\xf1K\xd9\x17\xf7q\x93pcg\x9f$\xf2#K\x01\x8a\xb2\r\xfa'
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
