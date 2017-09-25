@@ -7,7 +7,7 @@ def get_content(url, data = None):
     r.encoding = 'utf-8'
     print(r.status_code)
     return r.text
-    
+
     '''
     #网页保存到本地
     file_obj = open("test.txt","w")
@@ -33,7 +33,7 @@ def get_data(html_text):
             max_tem = tem.find('span').string
         except:
             max_tem = '无'
-        
+
         #print(max_tem)
         min_tem = tem.find('i').string
         win = day.find('p',{'class':'win'})
@@ -52,13 +52,12 @@ def save_csv(data):
         for day in data:
             #writer.writerow({'日期':day[0],'天气':day[1],'最高温度':day[2],'最低温度':day[3],'风力':day[4]})
             writer.writerow(day)
-            
 
-    
+
+
 if __name__== '__main__':
     url = 'http://www.weather.com.cn/weather/101020100.shtml'
     html=get_content(url)
     data=get_data(html)
     save_csv(data)
     print (data)
-
