@@ -106,7 +106,7 @@ def getOnePagePic(doubanurl):
     path = basicPath+pathTag+'\\'
     for pic in pics:
         print(pic)
-        re1 = re.search( r'.{6}\.jpg', pic)
+        re1 = re.search( r'.{8}\.jpg', pic)
         if re1:
             string = path+'\\'+re1.group()
             print('图片保存在：'+string)
@@ -114,8 +114,6 @@ def getOnePagePic(doubanurl):
             print('第'+str(picCount)+'张图片下载完成')
             picCount+=1
     pageTag +=1
-    # if picCount>400:
-    #     return
     soup = BeautifulSoup(dbcontent,'html.parser')
     #获取下一页标签，跳转下一页
     nextlist = soup.select_one('a[title="下一页"]')['href']
@@ -145,7 +143,7 @@ def start():
     global picCount
     print('start+++++++++++++')
     remen={
-        'remen':'https://www.dbmeinv.com/dbgroup/rank.htm?pager_offset=25'
+        'remen621':'https://www.dbmeinv.com/dbgroup/rank.htm?pager_offset=979'
     }
     for key,value in remen.items():
         pathTag=key

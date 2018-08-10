@@ -7,16 +7,6 @@ import time
 from bs4 import BeautifulSoup
 import tools
 import re
-def start1():
-    cap = webdriver.DesiredCapabilities.PHANTOMJS
-    cap["phantomjs.page.settings.resourceTimeout"] = 180
-    cap["phantomjs.page.settings.loadImages"] = False
-
-    driver = webdriver.PhantomJS(executable_path="D:\\Downloads\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe", desired_capabilities=cap)
-    driver.set_page_load_timeout(180)     
-    driver.get('https://www.zhihu.com/question/26297181?utm_source=qq&utm_medium=social&utm_oi=924791125112406016')
-    time.sleep(5)
-    driver.save_screenshot('./login.png')   #为便于调试，保存网页的截图
 
 #获取所有图片，然后调用getPic爬取所有图片
 def start():
@@ -25,7 +15,7 @@ def start():
     cap["chrome.page.settings.loadImages"] = False
     driver = webdriver.Chrome(executable_path="./chromedriver.exe", desired_capabilities=cap)
     driver.set_page_load_timeout(180)
-    driver.get("https://www.zhihu.com/question/26297181?utm_source=qq&utm_medium=social&utm_oi=924791125112406016")
+    driver.get("https://www.zhihu.com/question/28483870?utm_source=qq&utm_medium=social&utm_oi=739181974001811456")
     # time.sleep(5)
     assert '知乎' in driver.title
     print(driver.title)
@@ -64,7 +54,11 @@ def getPic():
         i = 0
         nums =0
         for temp in list1:
-            name = temp.find('span', class_='UserLink AuthorInfo-name')
+
+
+            name = temp.find('span', class_='UserLink AuthorInfo-name')           
+            if not name.string:
+                name=name.div.div.a
             if not name:
                 continue
             nameStr = name.string
@@ -72,7 +66,7 @@ def getPic():
                 nameStr = nameStr+str(i)
                 i+=1
             listName.append(nameStr)
-            print(nameStr)
+            print("用户名：："+nameStr)
             imgs = temp.find_all('img')
             listUrl = []
             for img in imgs:
@@ -82,6 +76,7 @@ def getPic():
             if len(listUrl)>1:
                 nums+=1
                 print("下载第%d位用户。"% nums)
+                print("用户名：："+nameStr)
                 createDir(nameStr,listUrl)
 
 
@@ -100,4 +95,6 @@ def createDir(name, urls):
             print('图片保存在：'+pathPic)
             tools.downPic(url,pathPic)
 
-getPic()
+if __name__ == '__main__':
+    # start()
+    getPic()
