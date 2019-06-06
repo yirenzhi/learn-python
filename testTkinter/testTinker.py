@@ -6,12 +6,16 @@ from tkinter import filedialog
 import os
 from tkinter import colorchooser
 
-# window = tk.Tk()
+def main():
+    window = tk.Tk()
+    window.title('test')
+    window.geometry("400x400")
 
-# my_label = ttk.Label(window, text="Hello World!")
-# my_label.grid(row=1, column=1)
+    my_label = ttk.Label(window, text="Hello World!")
+    my_label.place(x=50,y=50)
+    #my_label.grid(row=1, column=1)
 
-# window.mainloop()
+    window.mainloop()
 
 def getMessages():
     messagebox.showinfo("Information","Informative message")
@@ -52,6 +56,7 @@ def getColorChooser():
     rgb_color, web_color = colorchooser.askcolor(parent=application_window,initialcolor=(255, 0, 0))
     print(rgb_color,web_color)
 
-getColorChooser()
+#getColorChooser()
+#getFileDialog()
     
-
+main()

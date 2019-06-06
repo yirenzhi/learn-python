@@ -4,14 +4,15 @@ from sklearn.preprocessing import Imputer,LabelEncoder, OneHotEncoder
 from sklearn.model_selection import train_test_split
 
 dataset = pd.read_csv('Data.csv')
-# print(dataset)
+print(dataset)
+
 X = dataset.iloc[:,:-1].values
 Y= dataset.iloc[:,3].values
 
-# print('-'*50)
-# print(X)
-# print('-'*50)
-# print(Y)
+print('-'*50)
+print(X)
+print('-'*50)
+print(Y)
 
 imputer = Imputer(missing_values= "NaN", strategy="mean", axis=0)
 imputer = imputer.fit(X[:,1:3])
