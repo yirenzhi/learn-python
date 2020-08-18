@@ -1,2 +1,253 @@
-text1
-abc
+#include "CGameLanch.h"
+#include "Globel/CGlobelValue.h"
+#include "GameLogin/CGameEnter.h"
+#include "MyWidget/CProgress.h"
+#include "Common.h"
+#include "GameLogin/CNewLoginScene.h"
+#include "User/UserHttp.h"
+#include "GameCustom.h"
+#include "HttpTools/CGameHttp.h"
+#include "Socket/CGameSysTools.h"
+CCGameLanch::CCGameLanch(void)
+{
+	/*
+	CCLayer::init();
+	UserHttp* http = new UserHttp;
+	//http->payMobile("wly-86-21-yq-001","lhq002","362b3050-f485-4373-96b8-927907032709",curMoney,cardtype,"11430014124074995","013070416882312534");
+	http->payMobile("wly-86-021-sh-youqi-005","wjezxujian","wjezxujian","10",1,"12312321321","1231321321");
+	return;
+	*/
+#if (__WLY_GAME_AGENT__==__WLY_LEDOU_GAME__)
+	CCSprite* pSprite=CCSprite::spriteWithFile("UI/i_01_ledou.png");
+#elif (__WLY_GAME_AGENT__==__WLY_TAIWAN_GAME__)
+	CCSprite* pSprite=CCSprite::spriteWithFile("UI/i_01_taiwan.png");
+#elif (__WLY_GAME_AGENT__==__WLY_TAIWANSDK_GAME__)
+    CCSprite* pSprite=CCSprite::spriteWithFile("UI/i_01_taiwansdk.png");
+#elif (__WLY_GAME_AGENT__==__WLY_TAIWANYH_GAME__)
+    CCSprite* pSprite=CCSprite::spriteWithFile("UI/i_01_taiwanyh.png");
+#elif (__WLY_GAME_AGENT__==__WLY_INDONESIA_GAME__)
+	CCSprite* pSprite=CCSprite::spriteWithFile("UI/i_01_Indonesia.png");
+#else
+    CCSprite* pSprite=NULL;
+#endif
+	if (pSprite)
+	{
+		pSprite->setPosition(ccp(GAME_WIDTH / 2, GAME_HEIGHT / 2));
+		pSprite->setAnchorPoint(CCPointZero);
+		pSprite->setPosition(CCPointZero);
+#if (__WLY_GAME_AGENT__!=__WLY_XINJI_GAME__)
+		this->addChild(pSprite);
+#endif
+	}
+	//////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+#if (__WLY_GAME_AGENT__==__WLY_HANGUO_GAME__)
+#if (__OPEN_KR_NEWSDK__==__YES__)
+    CCGameHttp::checkServerEnd="something";
+    CCGameHttp::checkServerEnd="true";
+    schedule(schedule_selector(CCGameLanch::checkService));
+#else
+    CCGameHttp::sharedGameHttp()->checkServer();
+    schedule(schedule_selector(CCGameLanch::checkService));
+#endif
+#else
+#if(__GAME_PROTOCAL_1_8_1__==1)
+    	changeBackMap1(0);
+#if(__GAME_PROTOCAL_1_8_3__==1)
+#if (__WLY_GAME_AGENT__==__WLY_UQEE_GAME__ || __WLY_GAME_AGENT__==__WLY_THIRD_SDK_GAME__ || __WLY_GAME_AGENT__==__WLY_DANGLE_GAME__ \
+	|| __WLY_GAME_AGENT__==__WLY_TEXNGXUN_GAME__ || __WLY_GAME_AGENT__==__WLY_WANDOUJIA_GAME__ || __WLY_GAME_AGENT__ == __WLY_XIAOMI_GAME__)
+	string deveiceId = CCGameSysTools::getInfo("getDeveiceId");
+	string localIPStr = CCGameSysTools::getInfo("getLocalIPStr");
+	CCGameHttp::sharedGameHttp()->sendEquipInfo(deveiceId, localIPStr, GlobelValue::current_chanel_flag);
+#elif(__WLY_GAME_AGENT__ == __WLY_SNSFUN_GAME__)
+	string deveiceId = CCGameSysTools::getInfo("getDeveiceId");
+	string localIPStr = CCGameSysTools::getInfo("getLocalIPStr");
+	CCGameHttp::sharedGameHttp()->sendEquipInfoSns(deveiceId, localIPStr, GlobelValue::current_chanel_flag);
+#endif
+#endif
+#else
+	schedule(schedule_selector(CCGameLanch::changeSence),0.2f);
+#endif
+#endif
+	this->setAnchorPoint(CCPointZero);
+	this->setScaleX(GlobelValue::scaleX);
+	this->setScaleY(GlobelValue::scaleY);
+}
+
+
+
+void CCGameLanch::changeBackMap(ccTime dt)
+{
+
+	CCSprite* pSprite=CCSprite::spriteWithFile("UI/i_02.png");
+	pSprite->setPosition(ccp(GAME_WIDTH/2,GAME_HEIGHT/2));
+	pSprite->setAnchorPoint(CCPointZero);
+	pSprite->setPosition(CCPointZero);
+	this->addChild(pSprite);
+
+	schedule(schedule_selector(CCGameLanch::changeBackMap1),3.0f);
+}
+
+void CCGameLanch::changeShowTips(ccTime dt)
+{
+	unschedule(schedule_selector(CCGameLanch::changeShowTips));
+	CCSprite* pSprite=CCSprite::spriteWithFile("UI/i_02.png");
+	pSprite->setPosition(ccp(GAME_WIDTH/2,GAME_HEIGHT/2));
+	pSprite->setAnchorPoint(CCPointZero);
+	pSprite->setPosition(CCPointZero);
+	this->addChild(pSprite);
+
+#if (__WLY_GAME_AGENT__==__WLY_SNSFUN_GAME__)
+	if (CCGameSysTools::getSnsfunConfig("snsfun_cbsg_key")=="lequjianguochuobao")
+	{
+		if (CCGameSysTools::getInfo("getAccountInfo")=="")
+	            {
+		            schedule(schedule_selector(CCGameLanch::loginsdk),2.0f);
+		            return;
+	            }
+	}
+#endif
+	schedule(schedule_selector(CCGameLanch::changeSence),3.0f);
+}
+
+void CCGameLanch::changeBackMap1(ccTime dt)
+{
+	if(GlobelValue::current_chanel_flag=="xiongmaowan")
+	{
+		CCSprite* pSprite1=CCSprite::spriteWithFile("UI/i_01_Indonesia.png");
+		pSprite1->setPosition(ccp(GAME_WIDTH/2,GAME_HEIGHT/2));
+		pSprite1->setAnchorPoint(CCPointZero);
+		pSprite1->setPosition(CCPointZero);
+		this->addChild(pSprite1);
+	}
+	
+#if (__WLY_GAME_AGENT__==__WLY_SNSFUN_GAME__)
+    string show_tips = CCGameSysTools::getSnsfunConfig("show_tips");
+     GAME_LOG("heity snsfun show_tips:%s", show_tips.c_str());
+    if(show_tips == "true")
+    {
+		schedule(schedule_selector(CCGameLanch::changeShowTips),.2f);
+    }
+    else
+    {
+    	schedule(schedule_selector(CCGameLanch::changeSence),.2f);
+    }
+   
+#else
+	 if (GlobelValue::current_chanel_flag=="wlyxq"||GlobelValue::current_chanel_flag=="wlyyxfan")
+	 {
+	 	schedule(schedule_selector(CCGameLanch::changeBackMap2),1.0f);
+	 }
+	 else if(GlobelValue::current_chanel_flag=="xiongmaowan")
+	 {
+	 	schedule(schedule_selector(CCGameLanch::changeSence),1.0f);
+	 }
+	 else
+	 {
+	 	schedule(schedule_selector(CCGameLanch::changeSence));
+	 }
+	
+#endif
+}
+
+void CCGameLanch::changeBackMap2(ccTime dt)
+{
+	unschedule(schedule_selector(CCGameLanch::changeBackMap2));
+            CCSprite* pSprite=NULL;
+             if (GlobelValue::current_chanel_flag=="wlyxq")
+             {
+             	pSprite=CCSprite::spriteWithFile("UI/i_xiao7.png");
+             	pSprite->setScaleX(800.f/1280.f);
+                        pSprite->setScaleY(480.f/720.f);
+             }	
+            else if (GlobelValue::current_chanel_flag=="wlyyxfan")
+            {
+            	pSprite=CCSprite::spriteWithFile("UI/crash_screen.png");
+            }
+            if (pSprite!=NULL)
+            {
+	            pSprite->setPosition(ccp(GAME_WIDTH/2,GAME_HEIGHT/2));
+	            pSprite->setAnchorPoint(CCPointZero);
+	            pSprite->setPosition(CCPointZero);
+	            this->addChild(pSprite);
+            }
+            
+
+	if (CCGameSysTools::getInfo("getAccountInfo")!="")
+	{
+		schedule(schedule_selector(CCGameLanch::changeSence),1.0f);
+		return;
+	}
+
+
+	schedule(schedule_selector(CCGameLanch::loginsdk),3.0f);
+}
+
+void CCGameLanch::loginsdk(ccTime dt)
+{
+#if (__WLY_GAME_AGENT__==__WLY_SNSFUN_GAME__)
+            if (CCGameSysTools::getSnsfunConfig("snsfun_cbsg_key")=="lequjianguochuobao")
+	{
+		CCSprite* pSprite=CCSprite::spriteWithFile("UI/bgJG.png");
+                        pSprite->setScaleX(800.f/1280.f);
+                        pSprite->setScaleY(480.f/720.f);
+	            pSprite->setPosition(ccp(GAME_WIDTH/2,GAME_HEIGHT/2));
+	            pSprite->setAnchorPoint(CCPointZero);
+	            pSprite->setPosition(CCPointZero);
+	            this->addChild(pSprite);
+	}
+
+#endif
+           unschedule(schedule_selector(CCGameLanch::loginsdk));
+           CCGameSysTools::getInfo("loginSdk");
+           schedule(schedule_selector(CCGameLanch::check_loginsdk),2.0f);
+}
+
+void CCGameLanch::check_loginsdk(ccTime dt)
+{
+	if (CCGameSysTools::getInfo("getAccountInfo")!="")
+	{
+		unschedule(schedule_selector(CCGameLanch::check_loginsdk));
+		schedule(schedule_selector(CCGameLanch::changeSence),1.0f);
+	}
+}
+
+void CCGameLanch::changeSence(ccTime dt)
+{
+	unschedule(schedule_selector(CCGameLanch::changeSence));
+    CCScene* sence=CCScene::node();
+	CCGameEnter* enterLayer=new CCGameEnter;
+    
+	enterLayer->autorelease();
+	sence->addChild(enterLayer);
+    CCDirector::sharedDirector()->replaceScene(sence);
+    CCTextureCache::sharedTextureCache()->removeUnusedTextures();
+}
+
+void CCGameLanch::checkService(ccTime dt){
+    if(CCGameHttp::checkServerEnd!=""){
+        unschedule(schedule_selector(CCGameLanch::checkService));
+        if(CCGameHttp::checkServerEnd == "true" || CCGameHttp::checkServerEnd=="false"){
+            CCScene* sence=CCScene::node();
+            CCGameEnter* enterLayer=new CCGameEnter;
+            
+            enterLayer->autorelease();
+            sence->addChild(enterLayer);
+            CCDirector::sharedDirector()->replaceScene(sence);
+            CCTextureCache::sharedTextureCache()->removeUnusedTextures();
+        }else{
+            CCComfirmDialog* dialog = new CCComfirmDialog(this);
+            dialog->setStr1(CCGameHttp::checkServerEnd.c_str());
+            dialog->autorelease();
+            CCDirector::sharedDirector()->getRunningScene()->addChild(dialog, 50);
+        }
+    }
+}
+
+void CCGameLanch::onComfirm(){
+    CCDirector::sharedDirector()->end();
+}
+
+CCGameLanch::~CCGameLanch(void)
+{
+}
